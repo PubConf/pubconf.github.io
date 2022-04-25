@@ -28,7 +28,6 @@ sass:
 exclude:
   - "Gemfile*"
   - "README.md"
-  - "vendor" # for travis bullshit.
 
 include:
   - ".well-known"

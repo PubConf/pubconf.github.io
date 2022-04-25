@@ -1,11 +1,9 @@
 # pubconf.io
 Website for PubConf Events.
 
-[![Build Status](https://travis-ci.com/PubConf/pubconf.github.io.svg?branch=sources)](https://travis-ci.com/PubConf/pubconf.github.io)
-
 ## Developer Setup
 
-This is a Jekyll static site hosted on GitHub Pages, fronted by Cloudflare. The distributed files are hosted on the `master` branch, which are built from the source materials on the `sources` branch. The build is handled by TravisCI.
+This is a Jekyll static site hosted on GitHub Pages. The distributed files are hosted on the `main` branch.
 
 ### Dependencies
 
