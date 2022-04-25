@@ -140,7 +140,7 @@
     }
 
     .global-supporter {
-        $supporter-height: 300px;
+        $supporter-height: 400px;
         background: #fff url(/assets/images/index/supporter-bg.png) center center no-repeat;
         background-size: cover;
         position: relative;
@@ -167,17 +167,24 @@
             padding: 0 0 20px;
         }
 
-        h2 {
-            display: flex;
+        .supporters {
             justify-content: space-around;
-            a {
-                width: 100%;
-                text-align: center;
+            display: flex;
+            .supporter-item {
+                padding: 20px;
             }
-            img {
-                width: 50%;
-                min-width: 240px;
-                max-width: 360px;
+        }
+
+        @media (max-width: 900px) {
+            height: $supporter-height*1.5;
+            .container {
+                bottom: $supporter-height*1.5;
+                min-height: $supporter-height*1.5;
+            }
+
+            .supporters {
+                flex-direction: column;
+                align-items: center;
             }
         }
     }

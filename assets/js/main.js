@@ -95,26 +95,4 @@
         })());
     })();
 
-    /**
-    * lazyLoadImages
-    * @see https://davidwalsh.name/lazyload-image-fade
-    * reduce the perceived load time by deferring some images to load later.
-    */
-    (function lazyLoadImages() {
-        var attr1 = 'data-lazy-style';
-        util.forEach(util.makeArray(document.querySelectorAll('[' + attr1 + ']')), function(el) {
-            el.setAttribute('style', el.getAttribute(attr1));
-            setTimeout(function() {
-                el.removeAttribute(attr1);
-            }, 500);
-        });
-        var attr2 = 'data-lazy-src';
-        util.forEach(util.makeArray(document.querySelectorAll('[' + attr2 + ']')), function(el) {
-            el.setAttribute('src', el.getAttribute(attr2));
-            el.onload = function() {
-                el.removeAttribute(attr2);
-            };
-        });
-    })();
-
 });

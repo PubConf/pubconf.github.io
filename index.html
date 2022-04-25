@@ -13,7 +13,7 @@ sitemap:
             <img src="/assets/images/index/title-logo.svg" alt="PubConf by TrackJS">
         </div>
         <div class="subtitle">
-            <h2>THE SOFTWARE VARIETY SHOW AND AFTERPARTY</h2>
+            <h2>THE SOFTWARE VARIETY SHOW AND AFTER-PARTY</h2>
         </div>
     </div>
     {% capture menu_links %}
@@ -69,15 +69,46 @@ sitemap:
 
 <div class="global-supporter">
     <div class="container">
-        <h3>Global Founding Partner</h3>
-        <h2>
-            <a href="https://trackjs.com/">
-                <span style="display: none;">TrackJS Front-End Error Monitoring</span>
-                <img src="/assets/images/index/supporter-logo.svg" alt="TrackJS">
-            </a>
-        </h2>
+        <h3>Global Founding Partners</h3>
+        <div class="supporters">
+            <div class="supporter-item">
+                <a href="https://trackjs.com/">
+                    <span style="display: none;">TrackJS Front-End Error Monitoring</span>
+                    <img data-src="/assets/images/supporters/tjs-dark.webp"
+                        alt="TrackJS Front-End Error Monitoring"
+                        loading="lazy"
+                        height="200" width="480">
+                </a>
+            </div>
+            <div class="supporter-item">
+                <a href="https://requestmetrics.com/">
+                    <span style="display: none;">Request Metrics Performance Monitoring</span>
+                    <img data-src="/assets/images/supporters/rm-dark.webp"
+                        alt="Request Metrics Performance Monitoring"
+                        loading="lazy"
+                        height="200" width="480">
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
 {% include gallery.html %}
 {% include video.html %}
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description | strip_html | strip_newlines }}",
+        "url": "{{ site.url }}",
+        "logo": "{{ site.url }}{{ site.image }}",
+        "sameAs": [
+            "https://www.facebook.com/{{ site.facebook_username }}",
+            "https://twitter.com/{{ site.twitter_username }}"
+        ],
+        "email": "{{ site.email }}"
+    }
+</script>

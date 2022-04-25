@@ -1,0 +1,38 @@
+<!-- TrackJS -->
+<script>
+    window._trackJS = {
+        token: "8de4c78a3ec64020ab2ad15dea1ae9ff",
+        enabled: location.host.indexOf("localhost") !== 0,
+        application: "pubconf",
+        callback: { bindStack: true }
+    }
+</script>
+<script src="https://cdn.trackjs.com/agent/v3/canary/t.js"></script>
+
+<!-- Request Metrics -->
+<script src="https://cdn.requestmetrics.com/agent/canary/rm.js" data-rm-token="s6pb4ny:u3ut6yp" defer></script>
+
+<!-- Image lazy loading polyfill -->
+<script>
+    if ('loading' in HTMLImageElement.prototype) {
+        var images = [].slice.call(document.querySelectorAll('img[loading="lazy"]'));
+        images.forEach(img => {
+            if (img.dataset.src) { img.src = img.dataset.src; img.removeAttribute("data-src");  }
+            if (img.dataset.srcset) { img.srcset = img.dataset.srcset; img.removeAttribute("data-srcset"); }
+        });
+    } else {
+        var images = [].slice.call(document.querySelectorAll('img[loading="lazy"]'));
+        images.forEach(img => {
+            img.classList.add("lazyload");
+        });
+        var scriptEl = document.createElement('script');
+        scriptEl.src ='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
+        scriptEl.async = true;
+        document.body.appendChild(scriptEl);
+    }
+</script>
+
+<script async src="/assets/vendor/lite-youtube/lite-youtube.min.js{% if jekyll.environment == 'production' %}?{{ site.time | date: "%s%N" }}{% endif %}"></script>
+<!-- Hiding this until we need analytics again -->
+<!-- <script async src="/assets/js/main.js{% if jekyll.environment == 'production' %}?{{ site.time | date: "%s%N" }}{% endif %}"></script> -->
+

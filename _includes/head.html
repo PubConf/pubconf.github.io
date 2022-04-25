@@ -2,12 +2,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="version" content="{{ site.time | date: '%s%N' }}">
+    <meta name="git_commit" content="{{ site.github.build_revision }}">
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="me" href="https://twitter.com/{{ site.twitter_username }}">
-
-    <script async src="https://cdn.requestmetrics.com/agent/current/rm.js" data-rm-token="s6pb4ny:u3ut6yp"></script>
 
     <!-- Open Graph Sharing Info -->
     <meta property="og:title" content="{{ page.title }}" />
@@ -27,23 +27,6 @@
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:image" content="{{ site.url }}{% if page.images.share %}{{ page.images.share }}{% else %}{{ site.image }}{% endif %}" />
 
-    <!-- JSON-LD -->
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "name": "{{ site.title }}",
-            "description": "{{ site.description | strip_html | strip_newlines }}",
-            "url": "{{ site.url }}",
-            "logo": "{{ site.url }}{{ site.image }}",
-            "sameAs": [
-                "https://www.facebook.com/{{ site.facebook_username }}",
-                "https://twitter.com/{{ site.twitter_username }}"
-            ],
-            "email": "{{ site.email }}"
-        }
-    </script>
-
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
@@ -55,89 +38,6 @@
     <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- TrackJS -->
-    <script src="https://cdn.trackjs.com/agent/v3/canary/t.js"></script>
-    <script>
-        if (location.host.indexOf("localhost") !== 0) {
-            window.TrackJS && TrackJS.install({
-                token: "8de4c78a3ec64020ab2ad15dea1ae9ff",
-                application: "pubconf",
-                callback: { bindStack: true }
-            });
-        }
-        // TrackJS Asset Load Failure Monitoring Test
-        (function listenForAssetFailures() {
-            function listenForError(node) {
-                if (["SCRIPT","LINK","IMG"].indexOf(node.tagName) >= 0) {
-                    var origOnError = node.onerror;
-                    node.onerror = function(evt) {
-                        // NOTE [Todd] Without the srcElement, there is nothing to go on. May as well ignore.
-                        if (!evt || !evt.srcElement) { return; }
-                        evt.path = evt.path || [];
-                        var path = "";
-                        for(var elIdx = 0; elIdx < evt.path.length; elIdx++) {
-                            var currentEl = evt.path[elIdx];
-                            if (currentEl === window) {
-                                path += "Window";
-                                continue;
-                            }
-                            path += currentEl.nodeName;
-                            path += currentEl.id ? "#" + currentEl.id : "";
-                            path += currentEl.className ? "." + currentEl.className.split(" ").join(".") : "";
-                            if (elIdx < evt.path.length) {
-                                path += " > ";
-                            }
-                        }
-                        console.info({
-                            asset: evt.srcElement.src,
-                            integrity: evt.srcElement.integrity,
-                            element: evt.srcElement.outerHTML,
-                            path: path
-                        });
-                        console.error("Failed to load " + evt.srcElement.tagName + ": " + (evt.srcElement.src || evt.srcElement.href));
-                        if (origOnError) { origOnError.call(node, evt); }
-                    }
-                }
-            }
-            var Observer = window.MutationObserver || window.WebKitMutationObserver;
-            if (!Observer) { return; }
-            new Observer((function(mutations) {
-                [].forEach.call(mutations, function(mutation) {
-                    [].forEach.call(mutation.addedNodes, listenForError);
-                });
-            })).observe(document, { childList: true, subtree: true });
-        })();
-    </script>
-
     <link href='https://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css{% if jekyll.environment == 'production' %}?{{ site.time | date: "%s%N" }}{% endif %}">
-
-    <!-- Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.UA }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', '{{ site.UA }}');
-        gtag.createTimeoutFn = function(callback, timeout) {
-            var called = false;
-            function fn() {
-                if (!called) {
-                    called = true;
-                    callback();
-                }
-            }
-            setTimeout(fn, timeout || 1000);
-            return fn;
-        }
-    </script>
-    <script>
-        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-        },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-        a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-        twq('init','nwb6k');
-        twq('track','PageView');
-    </script>
-
-    <script async src="{{ site.url }}/assets/js/main.js{% if jekyll.environment == 'production' %}?{{ site.time | date: "%s%N" }}{% endif %}"></script>
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css{% if jekyll.environment == 'production' %}?{{ site.time | date: "%s%N" }}{% endif %}">
 </head>
