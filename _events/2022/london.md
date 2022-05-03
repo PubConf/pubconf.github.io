@@ -71,8 +71,11 @@ speakers:
   ian_cooper:
   hannes_lowette:
   mark_rendle:
-  ash_banaszek:
-  lewis_denhamparry:
+  ash_bzak:
+  lemon:
+  dylan_beattie:
+  guy_royse:
+  jo_franchetti:
 
 # Supporters array for the event.
 supporters:
