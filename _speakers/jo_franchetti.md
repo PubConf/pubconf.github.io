@@ -14,10 +14,10 @@ title: Jo Franchetti
 twitter: ThisIsJoFrank
 
 # Bio line.
-bio: ""
+bio: "Most Valuable Pun-fessional"
 
 # Headshot image URL. Should be 300x300 greyscale.
-#image: /assets/images/speakers/aaron_powell.jpg
+image: /assets/images/speakers/jo_franchetti.jpg
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
