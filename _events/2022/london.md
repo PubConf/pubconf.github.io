@@ -76,6 +76,7 @@ speakers:
   dylan_beattie:
   guy_royse:
   jo_franchetti:
+  chris_odell:
 
 # Supporters array for the event.
 supporters:
