@@ -77,6 +77,7 @@ speakers:
   guy_royse:
   jo_franchetti:
   chris_odell:
+  adele_carpenter:
 
 # Supporters array for the event.
 supporters:
