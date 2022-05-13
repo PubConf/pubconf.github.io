@@ -72,7 +72,7 @@ speakers:
   hannes_lowette:
   mark_rendle:
   ash_bzak:
-  lemon:
+  angeliki_patsiavou:
   dylan_beattie:
   guy_royse:
   jo_franchetti:
