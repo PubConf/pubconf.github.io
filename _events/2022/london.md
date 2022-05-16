@@ -68,16 +68,38 @@ finalist_count: 3
 # Within each speaker are the event-specific details.
 speakers:
   dan_north:
+    game: greenfield
+    rank: 5
   ian_cooper:
+    game: brownfield
+    rank: 3
   hannes_lowette:
+    game: brownfield
+    rank: 1
   mark_rendle:
+    game: fixing-production
+    rank: 1
   ash_bzak:
+    game: fixing-production
+    rank: 3
   angeliki_patsiavou:
+    game: fixing-production
+    rank: 2
   dylan_beattie:
+    game: greenfield
+    rank: 1
   guy_royse:
+    game: greenfield
+    rank: 2
   jo_franchetti:
+    game: greenfield
+    rank: 3
   chris_odell:
+    game: greenfield
+    rank: 4
   adele_carpenter:
+    game: greenfield
+    rank: 2
 
 # Supporters array for the event.
 supporters:

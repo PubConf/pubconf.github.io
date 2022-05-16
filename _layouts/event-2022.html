@@ -84,8 +84,7 @@ sitemap:
                     <img data-src="{% if speaker_profile.image %}{{ speaker_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}"
                         alt="{{ speaker_profile.title }}" class="speaker" loading="lazy"
                         height="150" width="150">
-                    {% if speaker_info.place == "champion" %}<img loading="lazy" data-src="/assets/images/champion.png" alt="PubConf Champion" title="PubConf Champion" class="champion">{% endif; %}
-                    {% if speaker_info.place == "finalist" %}<img loading="lazy" data-src="/assets/images/finalist.png" alt="PubConf Finalist" title="PubConf Finalist" class="finalist">{% endif; %}
+                    {% if speaker_info.rank == 1 %}<img loading="lazy" data-src="/assets/images/champion.png" alt="PubConf Champion" title="PubConf Champion" class="champion">{% endif; %}
                     <figcaption>
                         <!-- <span class="title">{% if speaker_info.talk %}{{ speaker_info.talk }}{% else %}Coming Soon{% endif %}</span> -->
                         <span class="name">{{ speaker_profile.title }}</span>
