@@ -245,7 +245,14 @@ sitemap:
         "url": "{{ site.url }}{{ event.url }}",
         "image": "{{ site.url }}{{ event.images.share }}",
         "startDate": "{{ event.date | date_to_xmlschema }}",
-        "endDate": "{{ event.end_date | date_to_xmlschema }}"
+        "endDate": "{{ event.end_date | date_to_xmlschema }}",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "organizer": {
+            "@type": "Organization",
+            "name": "TrackJS",
+            "url": "https://trackjs.com/"
+        }
         {% if event.venue %}
         ,"location": {
             "@type": "Place",
