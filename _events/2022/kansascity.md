@@ -9,14 +9,14 @@ title: PubConf Kansas City 2022
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
-date: 2022-08-09T18:00:00-5:00
+date: 2022-08-09T19:00:00-5:00
 
 # ISO8601 Date for the ending time of the event.
 end_date: 2022-08-09T23:00:00-5:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
-local_time: 2022-08-09T18:00
+local_time: 2022-08-09T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
 #tickets:
@@ -48,9 +48,9 @@ partner:
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
 venue:
-  name: Tom's Town Distillery
-  address: 1701 Main St, Kansas City, MO 64108
-  url: https://www.toms-town.com/
+  name: PBR Big Sky
+  address: 111 E 13th St, Kansas City, MO 64106
+  url: http://www.powerandlightdistrict.com/eat-and-drink/pbr-big-sky
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
