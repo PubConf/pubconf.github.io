@@ -85,6 +85,9 @@ supporters:
     level: topshelf
     url: https://requestmetrics.com/
     image: /assets/images/supporters/rm.webp
+
+redirect_from:
+  - /events/2022/kansascity/
 ---
 
 {% comment %}
