@@ -49,7 +49,7 @@ sitemap:
         <li>
             <a href="{{ event.url }}">
                 <h2>{{ event.title }}</h2>
-                <div class="event-date">{{ event.date | date: "%A, %B %e, %Y" }}</div>
+                <div class="event-date">{{ event.local_time | date: "%A, %B %e, %Y" }}</div>
             </a>
         </li>
         {% endif %}
