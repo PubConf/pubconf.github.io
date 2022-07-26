@@ -2,6 +2,6 @@
 
 title: Jennifer Wadella
 twitter: likeOMGitsFEDAY
-bio: "Not Victoria, the other short haired blonde chick"
+bio: "Angry Feminist Harpy"
 image: /assets/images/speakers/jenniferwadella.jpg
 ---

@@ -19,13 +19,13 @@ end_date: 2022-08-09T23:00:00-5:00
 local_time: 2022-08-09T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-#tickets:
-  # External URL to purchase tickets. Eventbrite, etc.
-  #url: https://www.eventbrite.co.uk/e/pubconf-ndc-london-2022-tickets-325609164777
-  # Number price in local currency
-  #price: 25
-  # Currency code. Used in meta.
-  #currency: GBP
+tickets:
+#   External URL to purchase tickets. Eventbrite, etc.
+  url: https://www.eventbrite.com/e/pubconf-kansas-city-2022-tickets-387843318807
+#   Number price in local currency
+  price: 25
+#   Currency code. Used in meta.
+  currency: USD
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
@@ -67,7 +67,30 @@ host: todd_gardner
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-
+  soulman_iqbal:
+    game: greenfield
+  david_whitney:
+    game: greenfield
+  bekah_hawrot_weigel:
+    game: greenfield
+  glenn_henriksen:
+    game: greenfield
+  lewis_denhamparry:
+    game: brownfield
+  cecili_poole:
+    game: brownfield
+  liz_wait:
+    game: brownfield
+  laura_santamaria:
+    game: brownfield
+  jennifer_wadella:
+    game: burning-production
+  jonathan_mills:
+    game: burning-production
+  ash_bzak:
+    game: burning-production
+  lemon:
+    game: burning-production
 
 # Supporters array for the event.
 supporters:

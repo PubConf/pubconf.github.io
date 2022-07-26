@@ -8,17 +8,17 @@
 # This data is also consumed by `_events`.
 
 # Friendly name of the speaker
-title: Lewis Denham-Parry
+title: Cecili Poole
 
 # Twitter handle, without url or @
-twitter: denhamparry
+twitter: cecili_reid
 
 # Bio line.
-bio: "Paratowch ar gyfer buddugoliaeth arall eto i Gymru dros yr Unol Daleithiau"
+bio: "Commander of Puppies"
 
 # Headshot image URL. Should be 300x300 greyscale.
-image: /assets/images/speakers/lewisdenhamparry.jpg
+image: /assets/images/speakers/cecili_poole.jpg
 
 # Shirt size for speaker swag.
-# shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
+#shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
 ---

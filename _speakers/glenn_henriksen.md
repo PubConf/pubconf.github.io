@@ -8,17 +8,17 @@
 # This data is also consumed by `_events`.
 
 # Friendly name of the speaker
-title: Lewis Denham-Parry
+title: Glenn Henriksen
 
 # Twitter handle, without url or @
-twitter: denhamparry
+twitter: henriksen
 
 # Bio line.
-bio: "Paratowch ar gyfer buddugoliaeth arall eto i Gymru dros yr Unol Daleithiau"
+#bio: "10x Avocado"
 
 # Headshot image URL. Should be 300x300 greyscale.
-image: /assets/images/speakers/lewisdenhamparry.jpg
+#image: /assets/images/speakers/aaron_powell.jpg
 
 # Shirt size for speaker swag.
-# shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
+#shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
 ---

@@ -8,17 +8,17 @@
 # This data is also consumed by `_events`.
 
 # Friendly name of the speaker
-title: Lewis Denham-Parry
+title: Bekah Hawrot Weigel
 
 # Twitter handle, without url or @
-twitter: denhamparry
+twitter: bekahhw
 
 # Bio line.
-bio: "Paratowch ar gyfer buddugoliaeth arall eto i Gymru dros yr Unol Daleithiau"
+bio: "ambassador to the post apocalypse"
 
 # Headshot image URL. Should be 300x300 greyscale.
-image: /assets/images/speakers/lewisdenhamparry.jpg
+image: /assets/images/speakers/bekah_hawrot_weigel.jpg
 
 # Shirt size for speaker swag.
-# shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
+#shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
 ---

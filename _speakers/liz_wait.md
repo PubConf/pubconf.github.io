@@ -8,16 +8,16 @@
 # This data is also consumed by `_events`.
 
 # Friendly name of the speaker
-title: Lewis Denham-Parry
+title: Liz Wait
 
 # Twitter handle, without url or @
-twitter: denhamparry
+twitter: auraswap
 
 # Bio line.
-bio: "Paratowch ar gyfer buddugoliaeth arall eto i Gymru dros yr Unol Daleithiau"
+bio: ""
 
 # Headshot image URL. Should be 300x300 greyscale.
-image: /assets/images/speakers/lewisdenhamparry.jpg
+image: /assets/images/speakers/liz_wait.jpg
 
 # Shirt size for speaker swag.
 # shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
