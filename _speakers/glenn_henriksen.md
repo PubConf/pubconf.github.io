@@ -17,7 +17,7 @@ twitter: henriksen
 #bio: "10x Avocado"
 
 # Headshot image URL. Should be 300x300 greyscale.
-#image: /assets/images/speakers/aaron_powell.jpg
+image: /assets/images/speakers/glenn_henriksen.jpg
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
