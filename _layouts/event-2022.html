@@ -75,20 +75,24 @@ sitemap:
         <ul class="speaker-list">
             {% for speaker_hash in event.speakers %}
             {% assign speaker_slug = speaker_hash[0] %}
-            {% assign speaker_info = speaker_hash[1] %}
+            {% assign speaker_event_info = speaker_hash[1] %}
             {% assign speaker_profile = site.speakers | where: 'slug', speaker_slug | first %}
             {% if speaker_profile %}
             <li>
                 <a class="speaker-link" href="{{ speaker_profile.url }}" data-click-category="discovery" data-click-action="speaker_link" data-click-label="{{ speaker_profile.title }}">
                 <figure class="speaker-item speaker-twitter-{{speaker_profile.twitter}}">
-                    <img data-src="{% if speaker_profile.image %}{{ speaker_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}"
+                    <img data-src="{% if speaker_event_info.image %}{{ speaker_event_info.image }}{% elsif speaker_profile.image %}{{ speaker_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}"
                         alt="{{ speaker_profile.title }}" class="speaker" loading="lazy"
                         height="150" width="150">
                     {% if speaker_info.rank == 1 %}<img loading="lazy" data-src="/assets/images/champion.png" alt="PubConf Champion" title="PubConf Champion" class="champion">{% endif; %}
                     <figcaption>
-                        <!-- <span class="title">{% if speaker_info.talk %}{{ speaker_info.talk }}{% else %}Coming Soon{% endif %}</span> -->
-                        <span class="name">{{ speaker_profile.title }}</span>
-                        <span class="description">{% if speaker_profile.bio %}{{ speaker_profile.bio }}{% else %}Lazy Bastard{% endif %}</span>
+                        <h3 class="title">{% if speaker_event_info.talk %}{{ speaker_event_info.talk }}{% else %}Making Something Up...{% endif %}</h4>
+                        <h4 class="name">{{ speaker_profile.title }}</h3>
+                        <span class="description">
+                            {% if speaker_event_info.bio %}{{ speaker_event_info.bio }}
+                            {% elsif speaker_profile.bio %}{{ speaker_profile.bio }}
+                            {% else %}Lazy Bastard{% endif %}
+                        </span>
                     </figcaption>
                 </figure>
                 </a>
@@ -99,24 +103,32 @@ sitemap:
 
         {% if event.host %}
         <div class="host">
-            {% assign host_profile = site.speakers | where: 'slug', event.host | first %}
-            {% if host_profile %}
             <h3 class="lead2">Hosted By</h3>
             <ul class="speaker-list">
+                {% for host_hash in event.host %}
+                {% assign host_slug = host_hash[0] %}
+                {% assign host_event_info = host_hash[1] %}
+                {% assign host_profile = site.speakers | where: 'slug', host_slug | first %}
+                {% if host_profile %}
                 <li>
                     <a class="speaker-link" href="{{ host_profile.url }}">
                     <figure class="speaker-item">
-                        <img data-src="{{ host_profile.image }}" alt="{{ host_profile.name }}" class="speaker"
+                        <img data-src="{% if host_event_info.image %}{{ host_event_info.image }}{% elsif host_profile.image %}{{ host_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}" alt="{{ host_profile.name }}" class="speaker"
                             height="150" width="150" loading="lazy">
                         <figcaption>
                             <span class="name">{{ host_profile.title }}</span>
-                            <span class="description">{{ host_profile.bio }}</span>
+                            <span class="description">
+                                {% if host_event_info.bio %}{{ host_event_info.bio }}
+                                {% elsif host_profile.bio %}{{ host_profile.bio }}
+                                {% else %}Lazy Bastard{% endif %}
+                            </span>
                         </figcaption>
                     </figure>
                     </a>
                 </li>
+                {% endif %}
+                {% endfor %}
             </ul>
-            {% endif %}
         </div>
         {% endif %}
     </div>

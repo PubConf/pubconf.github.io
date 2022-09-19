@@ -9,7 +9,7 @@ title: PubConf Oslo 2022
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
-date: 2022-10-01T18:00:00+2:00
+date: 2022-10-01T19:00:00+2:00
 
 # ISO8601 Date for the ending time of the event.
 end_date: 2022-10-01T23:00:00+2:00
@@ -19,13 +19,13 @@ end_date: 2022-10-01T23:00:00+2:00
 local_time: 2022-10-01T18:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-#tickets:
+tickets:
   # External URL to purchase tickets. Eventbrite, etc.
-  #url: https://www.eventbrite.co.uk/e/pubconf-ndc-london-2022-tickets-325609164777
+  url: https://www.eventbrite.com/e/pubconf-oslo-2022-tickets-418712790227
   # Number price in local currency
-  #price: 25
+  price: 250
   # Currency code. Used in meta.
-  #currency: GBP
+  currency: NOK
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
@@ -48,9 +48,9 @@ partner:
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
 venue:
-  name: Skråplanet
-  address: underetasjen på nye Rebel Universitetsgata 2, 0164 Oslo
-  url: https://skraplanet.no/
+  name: The Scotsman
+  address: Karl Johans Gate 17 0159 Oslo Norway
+  url: https://scotsman.no/
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
@@ -58,7 +58,10 @@ venue:
 # rendered.
 
 # The host of the show
-host: todd_gardner
+host:
+  todd_gardner:
+    bio: "Putting the B back in RGB"
+    image: "/assets/images/speakers/todd_gardner_2.jpg"
 
 # How many finalists can be voted for using the voting page
 # https://pubconf.io/vote/?event=<eventName>&hash=<secret>
@@ -67,7 +70,28 @@ host: todd_gardner
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-
+  alex_dunn:
+    # bio:
+    # talk:
+  # christin_gorman:
+    # bio:
+    # talk:
+  damian_brady:
+    bio: "Definitely still knows how to code"
+    image: "/assets/images/speakers/damian_brady_2.jpg"
+    # talk:
+  dylan_beattie:
+    # bio:
+    # talk:
+  glenn_henriksen:
+    bio: "Not lazy, just energy efficient"
+    # talk:
+  mark_rendle:
+    # bio:
+    # talk:
+  melissa_houghton:
+    # bio:
+    # talk:
 
 # Supporters array for the event.
 supporters:
