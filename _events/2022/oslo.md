@@ -60,7 +60,7 @@ venue:
 # The host of the show
 host:
   todd_gardner:
-    bio: "Connoisseur of fine JavaScript"
+    bio: "onnoisseur of fine JavaScript"
     image: "/assets/images/speakers/todd_gardner_2.jpg"
 
 # How many finalists can be voted for using the voting page
@@ -90,7 +90,6 @@ speakers:
     # bio:
     # talk:
   melissa_houghton:
-    # bio:
     # talk:
 
 # Supporters array for the event.
