@@ -60,7 +60,7 @@ venue:
 # The host of the show
 host:
   todd_gardner:
-    bio: "Putting the B back in RGB"
+    bio: "Connoisseur of fine JavaScript"
     image: "/assets/images/speakers/todd_gardner_2.jpg"
 
 # How many finalists can be voted for using the voting page
