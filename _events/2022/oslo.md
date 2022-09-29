@@ -70,7 +70,7 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  alex_dunn:
+  # alex_dunn:
     # bio:
     # talk:
   # christin_gorman:
@@ -80,12 +80,14 @@ speakers:
     bio: "Definitely still knows how to code"
     image: "/assets/images/speakers/damian_brady_2.jpg"
     # talk:
+  david_benson:
+    talk: "A Vulcan Guide To Fun With Flags"
   dylan_beattie:
     # bio:
     # talk:
   glenn_henriksen:
     bio: "Not lazy, just energy efficient"
-    # talk:
+    talk: "Cute doesn't mean good"
   mark_rendle:
     # bio:
     # talk:
