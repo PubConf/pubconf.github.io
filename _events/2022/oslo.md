@@ -16,7 +16,7 @@ end_date: 2022-10-01T23:00:00+2:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
-local_time: 2022-10-01T18:00
+local_time: 2022-10-01T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
 tickets:
@@ -79,7 +79,7 @@ speakers:
   damian_brady:
     bio: "Definitely still knows how to code"
     image: "/assets/images/speakers/damian_brady_2.jpg"
-    # talk:
+    talk: "The Future: Be Stupid, Faster"
   david_benson:
     talk: "A Vulcan Guide To Fun With Flags"
   dylan_beattie:
@@ -92,7 +92,7 @@ speakers:
     # bio:
     talk: "The Basilisk"
   melissa_houghton:
-    # talk:
+    talk: "Tips for Tech Consulting as told by Star Trek Next Gen"
 
 # Supporters array for the event.
 supporters:
