@@ -60,7 +60,7 @@ venue:
 # The host of the show
 host:
   todd_gardner:
-    bio: "onnoisseur of fine JavaScript"
+    bio: "Connoisseur of fine JavaScript"
     image: "/assets/images/speakers/todd_gardner_2.jpg"
 
 # How many finalists can be voted for using the voting page
@@ -84,13 +84,13 @@ speakers:
     talk: "A Vulcan Guide To Fun With Flags"
   dylan_beattie:
     # bio:
-    # talk:
+    talk: "They Mostly Come At Night... Mostly"
   glenn_henriksen:
     bio: "Not lazy, just energy efficient"
     talk: "Cute doesn't mean good"
   mark_rendle:
     # bio:
-    # talk:
+    talk: "The Basilisk"
   melissa_houghton:
     # talk:
 
