@@ -5,52 +5,52 @@
 layout: "event-2022"
 
 # Full title of the event. Will be used in meta tags. Usually "PubConf City Year"
-title: PubConf Oslo 2022
+title: PubConf Minneapolis 2022
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
-date: 2022-10-01T19:00:00+2:00
+date: 2022-11-17T19:00:00-6:00
 
 # ISO8601 Date for the ending time of the event.
-end_date: 2022-10-01T23:00:00+2:00
+end_date: 2022-11-17T23:00:00-6:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
-local_time: 2022-10-01T19:00
+local_time: 2022-11-17T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-tickets:
+#tickets:
   # External URL to purchase tickets. Eventbrite, etc.
-  url: https://www.eventbrite.com/e/pubconf-oslo-2022-tickets-418712790227
+  #url: https://www.eventbrite.com/e/pubconf-oslo-2022-tickets-418712790227
   # Number price in local currency
-  price: 250
+  #price: 250
   # Currency code. Used in meta.
-  currency: NOK
+  #currency: NOK
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
 # `/assets/images/events/_template`
 images:
   # Image used in meta. Will be shown in Twitter/Facebook when links are shared.
-  share: /assets/images/events/oslo/event-share.jpg
+  share: /assets/images/events/minnesota/event-share.jpg
   # Vector event logo
-  logo: /assets/images/events/oslo/event-logo.svg
+  logo: /assets/images/events/minnesota/event-logo.svg
   # Background Image used in the top-of-page hero.
-  background: /assets/images/events/oslo/event-hero-bg.jpg
+  background: /assets/images/events/minnesota/event-hero-bg.jpg
 
 # Most events have a conference partner. This is to highlight them.
 partner:
-  name: NDC Oslo
-  url: https://ndcoslo.com/
+  name: NDC Minnesota
+  url: https://ndcminnesota.com/
   # Specific dimensions required. This is also in the image template.
-  logo: /assets/images/events/oslo/partner-logo.png
+  logo: /assets/images/events/minnesota/partner-logo.png
 
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
-venue:
-  name: The Scotsman
-  address: Karl Johans Gate 17 0159 Oslo Norway
-  url: https://scotsman.no/
+#venue:
+  #name: The Scotsman
+  #address: Karl Johans Gate 17 0159 Oslo Norway
+  #url: https://scotsman.no/
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
@@ -70,31 +70,6 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  # alex_dunn:
-    # bio:
-    # talk:
-  # christin_gorman:
-    # bio:
-    # talk:
-  damian_brady:
-    bio: "Definitely still knows how to code"
-    image: "/assets/images/speakers/damian_brady_2.jpg"
-    talk: "The Future: Be Stupid, Faster"
-  david_benson:
-    talk: "A Vulcan Guide To Fun With Flags"
-  dylan_beattie:
-    # bio:
-    talk: "They Mostly Come At Night... Mostly"
-    place: "champion"
-  glenn_henriksen:
-    bio: "Not lazy, just energy efficient"
-    talk: "Cute doesn't mean good"
-  mark_rendle:
-    # bio:
-    talk: "The Basilisk"
-  melissa_houghton:
-    talk: "Tips for Tech Consulting as told by Star Trek Next Gen"
-    place: "finalist"
 
 # Supporters array for the event.
 supporters:
