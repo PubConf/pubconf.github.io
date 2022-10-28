@@ -19,13 +19,13 @@ end_date: 2022-11-17T23:00:00-6:00
 local_time: 2022-11-17T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-#tickets:
+tickets:
   # External URL to purchase tickets. Eventbrite, etc.
-  #url: https://www.eventbrite.com/e/pubconf-oslo-2022-tickets-418712790227
+  url: https://events.eventzilla.net/e/pubconf-minneapolis-2022-2138574280
   # Number price in local currency
-  #price: 250
+  price: 40
   # Currency code. Used in meta.
-  #currency: NOK
+  currency: USD
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
@@ -47,10 +47,10 @@ partner:
 
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
-#venue:
-  #name: The Scotsman
-  #address: Karl Johans Gate 17 0159 Oslo Norway
-  #url: https://scotsman.no/
+venue:
+  name: The Devil's Advocate
+  address: 1070 Nicollet Mall, Minneapolis, MN 55403
+  url: https://devilsadvocatemn.com/
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
