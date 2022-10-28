@@ -70,6 +70,22 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
+  brandon_minnick:
+    talk:
+  carl_franklin:
+    talk:
+  dan_lew:
+    talk:
+  donnie_berkholz:
+    talk:
+  hannes_lowette:
+    talk:
+  heidi_waterhouse:
+    talk:
+  laura_bell:
+    talk:
+  lemon:
+    talk:
 
 # Supporters array for the event.
 supporters:
