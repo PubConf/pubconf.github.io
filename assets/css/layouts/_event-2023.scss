@@ -278,7 +278,7 @@
         .ticket-cta {
             display: flex;
             justify-content: space-between;
-            flex-direction: row;
+            flex-direction: column;
             @media screen and (max-width: 768px) {
                 flex-direction: column;
             }
