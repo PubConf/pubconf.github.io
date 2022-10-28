@@ -2,7 +2,7 @@
 # PubConf Events are defined by this markdown frontmatter. This template
 # contains all the supported fields and descriptions.
 #
-layout: "event-2022"
+layout: "event-2023"
 
 # Full title of the event. Will be used in meta tags. Usually "PubConf City Year"
 title: PubConf Minneapolis 2022
@@ -32,18 +32,18 @@ local_time: 2022-11-17T19:00
 # `/assets/images/events/_template`
 images:
   # Image used in meta. Will be shown in Twitter/Facebook when links are shared.
-  share: /assets/images/events/minnesota/event-share.jpg
+  share: /assets/events/minneapolis_2023/event-share.jpg
   # Vector event logo
-  logo: /assets/images/events/minnesota/event-logo.svg
+  logo: /assets/events/minneapolis_2023/event-logo.svg
   # Background Image used in the top-of-page hero.
-  background: /assets/images/events/minnesota/event-hero-bg.jpg
+  background: /assets/events/minneapolis_2023/The_Hell.webp
 
 # Most events have a conference partner. This is to highlight them.
 partner:
   name: NDC Minnesota
   url: https://ndcminnesota.com/
   # Specific dimensions required. This is also in the image template.
-  logo: /assets/images/events/minnesota/partner-logo.png
+  logo: /assets/events/minneapolis_2023/partner-logo.png
 
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
