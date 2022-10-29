@@ -52,6 +52,7 @@
                 height: $hero-height - 160px;
                 width: auto;
                 filter: drop-shadow(2px 4px 6px black);
+
             }
         }
         .text {
@@ -112,6 +113,9 @@
             }
             .title {
                 padding: 20px;
+                img {
+                    max-width: calc(100% - 20px);
+                }
             }
         }
     }
@@ -119,10 +123,11 @@
     .partner {
         background-color: $brand-darkest-grey;
         .container {
-            padding: 50px 0;
+            padding: 50px 10px;
             display: flex;
             flex-direction: row;
             align-items: center;
+            text-align: center;
             @media screen and (max-width: 768px) {
                 flex-direction: column;
             }
@@ -130,7 +135,8 @@
                 flex: 0 0 50%;
             }
             img {
-                max-width: 100%;
+                max-width: calc(100% - 20px);
+                height: auto;
             }
         }
     }
