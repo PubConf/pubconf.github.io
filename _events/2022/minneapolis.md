@@ -75,7 +75,9 @@ speakers:
   carl_franklin:
     talk:
   dan_lew:
-    talk:
+    talk: "Web's Inferno"
+    bio: "Wait, is this thing recording?"
+    image: "/assets/images/speakers/dan_lew_2.jpg"
   donnie_berkholz:
     talk:
   hannes_lowette:
