@@ -80,14 +80,16 @@ speakers:
     image: "/assets/images/speakers/dan_lew_2.jpg"
   donnie_berkholz:
     talk:
-  hannes_lowette:
-    talk:
   heidi_waterhouse:
     talk:
+  kat_t:
+    talk: "Crypto2020JS - Encryption of TLA Compliance"
+  hannes_lowette:
+    talk: "Bullshit Champion Round"
   laura_bell:
-    talk:
+    talk: "Bullshit Champion Round"
   lemon:
-    talk:
+    talk: "Bullshit Champion Round"
 
 # Supporters array for the event.
 supporters:
