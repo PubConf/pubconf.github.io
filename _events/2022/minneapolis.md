@@ -83,7 +83,7 @@ speakers:
   heidi_waterhouse:
     talk:
   kat_t:
-    talk: "Crypto2020JS - Encryption of TLA Compliance"
+    talk: "Crypto2020JS - Encryption For TLA Compliance"
   hannes_lowette:
     talk: "Bullshit Champion Round"
   laura_bell:
