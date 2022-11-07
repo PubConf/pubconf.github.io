@@ -79,7 +79,9 @@ speakers:
     bio: "Wait, is this thing recording?"
     image: "/assets/images/speakers/dan_lew_2.jpg"
   donnie_berkholz:
-    talk:
+    talk: "Dante's Inferno of Feature Requests"
+    bio: "Head of the Asylum"
+    image: "/assets/images/speakers/donnie_berkholz_2.jpg"
   heidi_waterhouse:
     talk:
   kat_t:
