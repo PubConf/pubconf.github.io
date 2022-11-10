@@ -71,9 +71,9 @@ host:
 # Within each speaker are the event-specific details.
 speakers:
   brandon_minnick:
-    talk:
+    talk: "Why Do C# Developers Keep Using XAML?"
   carl_franklin:
-    talk:
+    talk: "My Struggles with Vocal Dyslexia"
   dan_lew:
     talk: "Web's Inferno"
     bio: "Wait, is this thing recording?"
@@ -83,7 +83,7 @@ speakers:
     bio: "Head of the Asylum"
     image: "/assets/images/speakers/donnie_berkholz_2.jpg"
   heidi_waterhouse:
-    talk:
+    talk: "Hell is Empty - Succession Planning"
   kat_t:
     talk: "Crypto2020JS - Encryption For TLA Compliance"
   hannes_lowette:

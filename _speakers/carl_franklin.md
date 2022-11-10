@@ -17,7 +17,7 @@ twitter: carlfranklin
 bio:
 
 # Headshot image URL. Should be 300x300 greyscale.
-image:
+image: "/assets/images/speakers/carl_franklin.jpg"
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl

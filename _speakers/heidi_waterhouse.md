@@ -14,10 +14,10 @@ title: Heidi Waterhouse
 twitter: wiredferret
 
 # Bio line.
-bio:
+bio: "DevOps Dear Prudence"
 
 # Headshot image URL. Should be 300x300 greyscale.
-image:
+image: "/assets/images/speakers/heidi_waterhouse.jpg"
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl

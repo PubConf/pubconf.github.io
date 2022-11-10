@@ -14,10 +14,10 @@ title: Brandon Minnick
 twitter: TheCodeTraveler
 
 # Bio line.
-bio:
+bio: "Loves C#, Dislikes XAML"
 
 # Headshot image URL. Should be 300x300 greyscale.
-image:
+image: "/assets/images/speakers/brandon_minnick.png"
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
