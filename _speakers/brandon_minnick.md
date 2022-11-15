@@ -14,7 +14,7 @@ title: Brandon Minnick
 twitter: TheCodeTraveler
 
 # Bio line.
-bio: "Loves C#, Dislikes XAML"
+bio: "Reads the F@*%ing Comments"
 
 # Headshot image URL. Should be 300x300 greyscale.
 image: "/assets/images/speakers/brandon_minnick.png"

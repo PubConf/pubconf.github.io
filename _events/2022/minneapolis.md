@@ -71,7 +71,7 @@ host:
 # Within each speaker are the event-specific details.
 speakers:
   brandon_minnick:
-    talk: "Why Do C# Developers Keep Using XAML?"
+    talk: "Don’t Read The Comments"
   carl_franklin:
     talk: "My Struggles with Vocal Dyslexia"
   dan_lew:
