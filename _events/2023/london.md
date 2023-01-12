@@ -70,6 +70,28 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
+  alyssa_nicoll:
+    #talk: "Don’t Read The Comments"
+  martin_thwaites:
+    #talk:
+  michelle_sandford:
+    #talk:
+  mike_benkovich:
+    #talk:
+
+  dylan_beattie:
+    talk: "Roasting Mark Rendle"
+  hannes_lowette:
+    talk: "Roasting Mark Rendle"
+  heather_downing:
+    talk: "Roasting Mark Rendle"
+
+  ash_bzak:
+    talk: "Blind Karaoke Topic"
+  melissa_houghton:
+    talk: "Blind Karaoke Topic"
+  mark_rendle:
+    talk: "Blind Karaoke Topic"
 
 
 # Supporters array for the event.
