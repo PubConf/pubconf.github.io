@@ -70,9 +70,11 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  alyssa_nicoll:
+  alex_dunn:
     #talk: "Don’t Read The Comments"
   martin_thwaites:
+    #talk:
+  michelle_mannering:
     #talk:
   michelle_sandford:
     #talk:
