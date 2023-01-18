@@ -90,7 +90,6 @@ speakers:
     talk: "Roasting Mark Rendle"
   heather_downing:
     talk: "Roasting Mark Rendle"
-
   ash_bzak:
     talk: "Blind Karaoke Topic"
   melissa_houghton:
