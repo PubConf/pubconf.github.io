@@ -72,12 +72,16 @@ host:
 speakers:
   alex_dunn:
     #talk: "Don’t Read The Comments"
+  kevlin_henney:
+    talk: "Dysfunctional Programming"
   martin_thwaites:
     #talk:
   michelle_mannering:
-    #talk:
+    talk: "ChatGPT; Talking to your Giant Pink Tiger"
   michelle_sandford:
-    #talk:
+    talk: "Rise of the Robots - Outsourcing my life to the AI"
+    bio: "Digital Doppelganger and AI Overlord"
+    image: "/assets/images/speakers/michelle_sandford_2.jpg"
   mike_benkovich:
     #talk:
 

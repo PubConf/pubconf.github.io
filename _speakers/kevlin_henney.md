@@ -8,16 +8,16 @@
 # This data is also consumed by `_events`.
 
 # Friendly name of the speaker
-title: Michelle Mannering
+title: Kevlin Henney
 
 # Twitter handle, without url or @
-twitter: MishManners
+twitter: KevlinHenney
 
 # Bio line.
-bio: "Avocado Ninja"
+bio: "Putting the fun into dysfunctional"
 
 # Headshot image URL. Should be 300x300 greyscale.
-image: /assets/images/speakers/michelle_mannering.jpg
+image: /assets/images/speakers/kevlin_henney.jpg
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
