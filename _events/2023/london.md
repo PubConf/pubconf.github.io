@@ -83,8 +83,7 @@ speakers:
     bio: "Digital Doppelganger and AI Overlord"
     image: "/assets/images/speakers/michelle_sandford_2.jpg"
   mike_benkovich:
-    #talk:
-
+    talk: "Evangelist of the Dead Technologies"
   dylan_beattie:
     talk: "Roasting Mark Rendle"
   hannes_lowette:
