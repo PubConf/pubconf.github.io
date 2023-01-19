@@ -71,7 +71,8 @@ host:
 # Within each speaker are the event-specific details.
 speakers:
   alex_dunn:
-    #talk: "Don’t Read The Comments"
+    bio: "Drinking Buddies with Alexa"
+    talk: "Mr. Steal Yo Job"
   kevlin_henney:
     talk: "Dysfunctional Programming"
   martin_thwaites:
