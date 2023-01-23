@@ -76,7 +76,7 @@ speakers:
   kevlin_henney:
     talk: "Dysfunctional Programming"
   martin_thwaites:
-    #talk:
+    talk: "The DevRel's DevRel"
   michelle_mannering:
     talk: "ChatGPT; Talking to your Giant Pink Tiger"
   michelle_sandford:

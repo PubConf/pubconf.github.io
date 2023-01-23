@@ -14,10 +14,10 @@ title: Martin Thwaites
 twitter: MartinDotNet
 
 # Bio line.
-#bio: "10x Avocado"
+bio: "Observability's biggest Fanboy"
 
 # Headshot image URL. Should be 300x300 greyscale.
-#image: /assets/images/speakers/aaron_powell.jpg
+image: /assets/images/speakers/martin_thwaites.jpg
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl
