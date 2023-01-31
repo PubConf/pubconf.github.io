@@ -73,6 +73,7 @@ speakers:
   alex_dunn:
     bio: "Drinking Buddies with Alexa"
     talk: "Mr. Steal Yo Job"
+    rank: 1
   kevlin_henney:
     talk: "Dysfunctional Programming"
   martin_thwaites:
@@ -89,6 +90,7 @@ speakers:
     talk: "Roasting Mark Rendle"
   hannes_lowette:
     talk: "Roasting Mark Rendle"
+    rank: 1
   heather_downing:
     talk: "Roasting Mark Rendle"
   ash_bzak:
@@ -97,6 +99,7 @@ speakers:
     talk: "Blind Karaoke Topic"
   mark_rendle:
     talk: "Blind Karaoke Topic"
+    rank: 1
 
 
 # Supporters array for the event.

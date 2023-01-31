@@ -87,10 +87,10 @@ sitemap:
             <li>
                 <a class="speaker-link" href="{{ speaker_profile.url }}" data-click-category="discovery" data-click-action="speaker_link" data-click-label="{{ speaker_profile.title }}">
                 <figure class="speaker-item speaker-twitter-{{speaker_profile.twitter}}">
-                    <img data-src="{% if speaker_event_info.image %}{{ speaker_event_info.image }}{% elsif speaker_profile.image %}{{ speaker_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}"
+                    <img src="{% if speaker_event_info.image %}{{ speaker_event_info.image }}{% elsif speaker_profile.image %}{{ speaker_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}"
                         alt="{{ speaker_profile.title }}" class="speaker" loading="lazy"
-                        height="150" width="150">
-                    {% if speaker_info.rank == 1 %}<img loading="lazy" data-src="/assets/images/champion.png" alt="PubConf Champion" title="PubConf Champion" class="champion">{% endif; %}
+                        height="150" width="150" />
+                    {% if speaker_event_info.rank == 1 %}<img loading="lazy" src="/assets/images/champion.png" alt="PubConf Winner" title="PubConf Winner" class="champion" />{% endif; %}
                     <figcaption>
                         <h3 class="title">{% if speaker_event_info.talk %}{{ speaker_event_info.talk }}{% else %}Making Something Up...{% endif %}</h4>
                         <h4 class="name">{{ speaker_profile.title }}</h3>
