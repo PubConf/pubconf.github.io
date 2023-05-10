@@ -43,9 +43,18 @@ sitemap:
     {% include menu.html links=menu_links %}
 </div>
 
+{% if event.tagline %}
+<div class="tagline">
+    <div class="container">
+        <h2>{{ event.tagline }}</h2>
+    </div>
+</div>
+{% endif %}
+
 {% if event.partner %}
 <div class="partner">
     <div class="container">
+
         <h2>In Partnership With</h2>
         <a href="{{ event.partner.url }}" title="{{ event.partner.name }}">
             <img src="{{ event.partner.logo }}" alt="{{ event.partner.name }}"
@@ -60,7 +69,7 @@ sitemap:
         <h2 id="details">Details</h2>
         <p>
             Ignite-style funny talks and comedy stunts from the world&apos;s most
-            amazing developers. They compete for your applause and a chance at the
+            amazing developers. They compete for your applause and a chance at a
             <strong>PubConf Trophy!</strong>
         </p>
         <p>
