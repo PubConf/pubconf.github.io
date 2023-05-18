@@ -19,13 +19,13 @@ end_date: 2023-06-12T23:00:00-05:00
 local_time: 2023-06-23T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-#tickets:
+tickets:
   # External URL to purchase tickets. Eventbrite, etc.
-  #url: https://www.eventbrite.co.uk/e/pubconf-ndc-london-2023-tickets-487578629807
+  url: https://www.eventbrite.com/e/pubconf-kansas-city-2023-tickets-634291331447
   # Number price in local currency
-  #price: 40
+  price: 40
   # Currency code. Used in meta.
-  #currency: USD
+  currency: USD
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
