@@ -76,7 +76,6 @@ speakers:
   ash_bzak:
     talk: "Blazing Addles"
   chase_aucoin:
-    bio: "Crazy Old Coot"
     talk: "Never Be Lonely, On Prospector's Only"
   damian_brady:
     talk: "ɐᴉlɐɹʇsn∀ uᴉ ƃuᴉpoƆ"
