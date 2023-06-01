@@ -72,36 +72,26 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-#   alex_dunn:
-#     bio: "Drinking Buddies with Alexa"
-#     talk: "Mr. Steal Yo Job"
-#     rank: 1
-#   kevlin_henney:
-#     talk: "Dysfunctional Programming"
-#   martin_thwaites:
-#     talk: "The DevRel's DevRel"
-#   michelle_mannering:
-#     talk: "ChatGPT; Talking to your Giant Pink Tiger"
-#   michelle_sandford:
-#     talk: "Rise of the Robots - Outsourcing my life to the AI"
-#     bio: "Digital Doppelganger and AI Overlord"
-#     image: "/assets/images/speakers/michelle_sandford_2.jpg"
-#   mike_benkovich:
-#     talk: "Evangelist of the Dead Technologies"
-#   dylan_beattie:
-#     talk: "Roasting Mark Rendle"
-#   hannes_lowette:
-#     talk: "Roasting Mark Rendle"
-#     rank: 1
-#   heather_downing:
-#     talk: "Roasting Mark Rendle"
-#   ash_bzak:
-#     talk: "Blind Karaoke Topic"
-#   melissa_houghton:
-#     talk: "Blind Karaoke Topic"
-#   mark_rendle:
-#     talk: "Blind Karaoke Topic"
-#     rank: 1
+  #amy_norris:
+  ash_bzak:
+    talk: "Blazing Addles"
+  chase_aucoin:
+    bio: "Crazy Old Coot"
+    talk: "Never Be Lonely, On Prospector's Only"
+  damian_brady:
+    talk: "ɐᴉlɐɹʇsn∀ uᴉ ƃuᴉpoƆ"
+  diana_pham:
+    talk: "If Programming Languages Were College Campus Clubs"
+  glenn_henriksen:
+  jennifer_wadella:
+  jessica_kerr:
+  laura_santamaria:
+  salman_iqbal:
+    bio: "More DevOops than DevOps"
+    talk: "YeehawOps: More Effective than DevOps"
+    image: "/assets/images/speakers/salman_iqbal_kc23.jpg"
+  #sierra_obryan:
+  #stephanie_laingen:
 
 
 # Supporters array for the event.

@@ -1,5 +1,4 @@
 ---
-
 title: Damian Brady
 twitter: damovisa
 bio: "Microsoft corporate shill"

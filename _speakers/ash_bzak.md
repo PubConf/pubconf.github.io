@@ -1,5 +1,4 @@
 ---
-
 title: Ash Bzak
 twitter: ashbzak
 bio: "UX Rapscallion"
