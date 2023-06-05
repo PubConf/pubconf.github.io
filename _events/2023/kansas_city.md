@@ -72,7 +72,8 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  #amy_norris:
+  amy_norris:
+    talk: "The Tech Frontier"
   ash_bzak:
     talk: "Blazing Addles"
   chase_aucoin:
@@ -82,15 +83,26 @@ speakers:
   diana_pham:
     talk: "If Programming Languages Were College Campus Clubs"
   glenn_henriksen:
+    bio: "Circus director. These *are* my monkeys!"
+    talk: "Violence is always an option"
   jennifer_wadella:
+    bio: "Too Bitchy for DevRel"
+    talk: "Burn Down Chart Driven Development"
   jessica_kerr:
+    talk: "Intelligence Will Kill Us All"
+    image: "/assets/images/speakers/jessica_kerr_kc23.jpg"
   laura_santamaria:
+    bio: "Screaming Jenkins Cowgirl"
+    talk: "This Server Might Be Big Enough"
+    image: "/assets/images/speakers/laura_santamaria_kc23.jpg"
   salman_iqbal:
     bio: "More DevOops than DevOps"
     talk: "YeehawOps: More Effective than DevOps"
     image: "/assets/images/speakers/salman_iqbal_kc23.jpg"
-  #sierra_obryan:
-  #stephanie_laingen:
+  sierra_obryan:
+    talk: "WWPC"
+  stephanie_laingen:
+    talk: "Work-from-Home Outlaw"
 
 
 # Supporters array for the event.

@@ -1,6 +1,6 @@
 ---
 title: Amy Norris
 twitter: AmyNorris
-bio:
-image:
+bio: "Completely Unqualified"
+#image:
 ---
