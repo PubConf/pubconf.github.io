@@ -50,9 +50,9 @@ partner:
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
 venue:
-  name: PBR Big Sky
-  address: 111 E 13th St, Kansas City, MO 64106
-  url: http://www.powerandlightdistrict.com/eat-and-drink/pbr-big-sky
+  name: Howl at the Moon
+  address: 1334 Grand Blvd. Kansas City, MO 64106
+  url: https://www.howlatthemoon.com/kansas-city/
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
