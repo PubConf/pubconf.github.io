@@ -9,14 +9,14 @@ title: PubConf Kansas City 2023
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
-date: 2023-06-23T19:00:00-05:00
+date: 2023-06-23T18:30:00-05:00
 
 # ISO8601 Date for the ending time of the event.
-end_date: 2023-06-12T23:00:00-05:00
+end_date: 2023-06-12T22:00:00-05:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
-local_time: 2023-06-23T19:00
+local_time: 2023-06-23T18:30
 
 # Tickets object. Comment this out until tickets are ready to be sold.
 tickets:
