@@ -81,7 +81,7 @@ speakers:
   damian_brady:
     talk: "ɐᴉlɐɹʇsn∀ uᴉ ƃuᴉpoƆ"
   diana_pham:
-    talk: "If Programming Languages Were College Campus Clubs"
+    talk: "Shit DevRel People Say"
   glenn_henriksen:
     bio: "Circus director. These *are* my monkeys!"
     talk: "Violence is always an option"
