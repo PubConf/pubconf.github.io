@@ -48,9 +48,9 @@ partner:
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
 #venue:
-  #name: The Barley Mow
-  #address: 104 Horseferry Road, Westminster, London, SW1P 2EE
-  #url: https://www.barleymowhorseferryrd.co.uk/
+  name: The Barley Mow
+  address: 104 Horseferry Road, Westminster, London, SW1P 2EE
+  url: https://www.barleymowhorseferryrd.co.uk/
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
