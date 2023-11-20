@@ -46,6 +46,8 @@
     <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    {% capture cache_bust %}{% if jekyll.environment == 'production' %}{{ site.time | date: '%s%N' }}{% endif %}{% endcapture %}
+    <link rel="stylesheet" href="/assets/css/style.css?{{ cache_bust }}">
     <link href='https://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css{% if jekyll.environment == 'production' %}?{{ site.time | date: "%s%N" }}{% endif %}">
+
 </head>
