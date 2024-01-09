@@ -107,7 +107,7 @@ supporters:
     # second-tier supporters.
     level: topshelf
     url: https://requestmetrics.com/
-    image: /assets/images/supporters/rm.webp
+    image: /assets/images/supporters/rm3.webp
 
 redirect_from:
   - /events/2022/kansascity/

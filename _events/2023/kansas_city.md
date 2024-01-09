@@ -112,7 +112,7 @@ supporters:
     # second-tier supporters.
     level: topshelf
     url: https://requestmetrics.com/
-    image: /assets/images/supporters/rm.webp
+    image: /assets/images/supporters/rm3.webp
 # TrackJS is a required supporter.
   - name: TrackJS
     # Levels are "topshelf" and "rail" indicating if their are first-tier or

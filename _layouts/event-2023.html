@@ -16,7 +16,7 @@ sitemap:
     </div>
 </div>
 
-<div class="hero" style="background: #000 url({{ event.images.background }}) center center no-repeat;background-size:cover;">
+<div class="hero" style="background: #000 url({{ event.images.background }}) center bottom no-repeat;background-size:cover;">
     <div class="container">
         <div class="title">
 
@@ -25,7 +25,7 @@ sitemap:
         </div>
         <div class="text">
             <h1>{{ event.title }}</h1>
-            <h2><em>The</em> Software Comedy Competition</h2>
+            <h2><em>The</em> Software Comedy Showcase</h2>
             {% if event.tickets %}
             <a class="cta" href="{{ event.tickets.url }}" alt="Buy Tickets to {{ event.title }}">
                 Buy Tickets

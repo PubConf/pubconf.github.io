@@ -47,7 +47,7 @@ partner:
 
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
-#venue:
+venue:
   name: The Barley Mow
   address: 104 Horseferry Road, Westminster, London, SW1P 2EE
   url: https://www.barleymowhorseferryrd.co.uk/
@@ -70,37 +70,13 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-#   alex_dunn:
-#     bio: "Drinking Buddies with Alexa"
-#     talk: "Mr. Steal Yo Job"
-#     rank: 1
-#   kevlin_henney:
-#     talk: "Dysfunctional Programming"
-#   martin_thwaites:
-#     talk: "The DevRel's DevRel"
-#   michelle_mannering:
-#     talk: "ChatGPT; Talking to your Giant Pink Tiger"
-#   michelle_sandford:
-#     talk: "Rise of the Robots - Outsourcing my life to the AI"
-#     bio: "Digital Doppelganger and AI Overlord"
-#     image: "/assets/images/speakers/michelle_sandford_2.jpg"
-#   mike_benkovich:
-#     talk: "Evangelist of the Dead Technologies"
-#   dylan_beattie:
-#     talk: "Roasting Mark Rendle"
-#   hannes_lowette:
-#     talk: "Roasting Mark Rendle"
-#     rank: 1
-#   heather_downing:
-#     talk: "Roasting Mark Rendle"
-#   ash_bzak:
-#     talk: "Blind Karaoke Topic"
-#   melissa_houghton:
-#     talk: "Blind Karaoke Topic"
-#   mark_rendle:
-#     talk: "Blind Karaoke Topic"
-#     rank: 1
-
+    brandon_minnick:
+    dylan_beattie:
+    eli_holderness:
+    hannes_lowette:
+    lemon:
+    mark_rendle:
+    michelle_mannering:
 
 # Supporters array for the event.
 supporters:
@@ -117,7 +93,7 @@ supporters:
     # second-tier supporters.
     level: topshelf
     url: https://requestmetrics.com/
-    image: /assets/images/supporters/rm.webp
+    image: /assets/images/supporters/rm3.webp
 ---
 
 {% comment %}
