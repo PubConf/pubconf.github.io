@@ -16,11 +16,11 @@ sitemap:
     </div>
 </div>
 
-<div class="hero" style="background: #000 url({{ event.images.background }}) center bottom no-repeat;background-size:cover;">
+<div class="hero" style="background: #000 url({{ event.images.background }}?{{ site.time | date: '%s%N' }}) center bottom no-repeat;background-size:cover;">
     <div class="container">
         <div class="title">
 
-            {% if event.images.logo %}<img src="{{ event.images.logo }}" alt="{{ event.title }}" width="300" height="115">
+            {% if event.images.logo %}<img src="{{ event.images.logo }}?{{ site.time | date: '%s%N' }}" alt="{{ event.title }}" width="300" height="115">
             {% else %}<img src="/assets/images/index/title-logo.svg" alt="{{ event.title }}" width="300" height="115">{% endif %}
         </div>
         <div class="text">
