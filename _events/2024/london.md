@@ -19,13 +19,13 @@ end_date: 2024-02-02T23:00:00Z
 local_time: 2024-02-02T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-#tickets:
+tickets:
   # External URL to purchase tickets. Eventbrite, etc.
-  #url: https://www.eventbrite.co.uk/e/pubconf-ndc-london-2023-tickets-487578629807
+  url: https://www.eventbrite.co.uk/e/pubconf-ndc-london-2024-tickets-753697388177
   # Number price in local currency
-  #price: 20
+  price: 20
   # Currency code. Used in meta.
-  #currency: GBP
+  currency: GBP
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
@@ -71,12 +71,19 @@ host:
 # Within each speaker are the event-specific details.
 speakers:
     brandon_minnick:
+        bio: "Tired of the bullshit"
+        talk: "Whodunit: Solving the Open Source Murderer"
+    dennis_doomen:
     dylan_beattie:
     eli_holderness:
     hannes_lowette:
+    jo_franchetti:
     lemon:
     mark_rendle:
     michelle_mannering:
+        bio: "Microsoft fan-girl"
+        talk: "The Death of Technology: what really happened to Zune?"
+        image: "/assets/images/speakers/michelle_mannering2.png"
 
 # Supporters array for the event.
 supporters:
