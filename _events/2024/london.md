@@ -79,6 +79,9 @@ speakers:
     hannes_lowette:
     jo_franchetti:
     lemon:
+        talk: ChatGPT is a Conspiracy of the Illuminati
+        bio: Chief Technical Symbologist
+        image: /assets/images/speakers/lemon-london24.jpg
     mark_rendle:
     michelle_mannering:
         bio: "Microsoft fan-girl"
