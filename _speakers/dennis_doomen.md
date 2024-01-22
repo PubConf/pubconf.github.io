@@ -14,10 +14,10 @@ title: Dennis Doomen
 twitter: ddoomen
 
 # Bio line.
-#bio: "10x Avocado"
+bio: The Code Necromancer
 
 # Headshot image URL. Should be 300x300 greyscale.
-#image: /assets/images/speakers/aaron_powell.jpg
+image: /assets/images/speakers/dennis_doomen.jpg
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl

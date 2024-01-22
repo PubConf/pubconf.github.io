@@ -74,10 +74,18 @@ speakers:
         bio: "Tired of the bullshit"
         talk: "Whodunit: Solving the Open Source Murderer"
     dennis_doomen:
+        talk: The curious case of the undiscovered production system
     dylan_beattie:
+    edward_thomson:
+        bio: drunk git
+        talk: A bug! But who’s to blame?
+        image: /assets/images/speakers/edward_thomson-london24.jpg
     eli_holderness:
     hannes_lowette:
     jo_franchetti:
+        talk: Stand up against "yak" Shaving
+        bio: Crinigerous Coder
+        image: /assets/images/speakers/jo_franchetti-london24.jpg
     lemon:
         talk: ChatGPT is a Conspiracy of the Illuminati
         bio: Chief Technical Symbologist
