@@ -84,6 +84,7 @@ speakers:
         talk: A bug! But who’s to blame?
         image: /assets/images/speakers/edward_thomson-london24.jpg
     eli_holderness:
+        talk: Big Poppins
     hannes_lowette:
         talk: "PubConf: the truth uncovered"
     jo_franchetti:
