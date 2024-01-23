@@ -76,12 +76,16 @@ speakers:
     dennis_doomen:
         talk: The curious case of the undiscovered production system
     dylan_beattie:
+        bio: One-man flashmob.
+        talk: The Bug Lebowski
+        image: /assets/images/speakers/dylan_beattie-london24.jpg
     edward_thomson:
         bio: drunk git
         talk: A bug! But who’s to blame?
         image: /assets/images/speakers/edward_thomson-london24.jpg
     eli_holderness:
     hannes_lowette:
+        talk: "PubConf: the truth uncovered"
     jo_franchetti:
         talk: Stand up against "yak" Shaving
         bio: Crinigerous Coder
