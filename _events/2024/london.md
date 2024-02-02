@@ -96,6 +96,7 @@ speakers:
         bio: Chief Technical Symbologist
         image: /assets/images/speakers/lemon-london24.jpg
     mark_rendle:
+        talk: "CSI: Sherlock She Wrote"
     #michelle_mannering:
     #    bio: "Microsoft fan-girl"
     #    talk: "The Death of Technology: what really happened to Zune?"
