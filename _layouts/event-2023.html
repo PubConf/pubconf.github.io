@@ -7,15 +7,6 @@ sitemap:
 
 {% assign event = page %}
 
-<div class="banner">
-    <div class="container">
-        <div class="text">
-            <strong>PubConf Merch Store Now Open!</strong>
-            Get your PubConf swag today. <strong><a href="https://merch.pubconf.io/">Shop Now.</a></strong>
-        </div>
-    </div>
-</div>
-
 <div class="hero" style="background: #000 url({{ event.images.background }}?{{ site.time | date: '%s%N' }}) center bottom no-repeat;background-size:cover;">
     <div class="container">
         <div class="title">
@@ -41,9 +32,6 @@ sitemap:
     {% capture menu_links %}
     <ol>
         <li><a href="/">Other Events</a></li>
-        <li>
-            <a href="https://merch.pubconf.io/">Buy Merch</a>
-        </li>
         <li><a href="#details">Details</a></li>
         <li><a href="#speakers">Speakers</a></li>
         <li><a href="#tickets">Tickets</a></li>
@@ -192,24 +180,6 @@ sitemap:
     </div>
 </div>
 {% endif %}
-
-<div class="merch">
-    <div class="container">
-        <div class="graphic">
-            <img src="/assets/images/merch2.jpg"
-                alt="PubConf Merch" height="300" width="500" loading="lazy" />
-        </div>
-        <div class="text">
-            <h2>PubConf Merch</h2>
-            <p>
-                Get yourself some drip that's the perfect blend of nerdy drunken fun.
-            </p>
-            <a href="https://merch.pubconf.io/" class="cta">
-                Get PubConf Merch
-            </a>
-        </div>
-    </div>
-</div>
 
 {% if event.supporters %}
 <div class="supporters">
