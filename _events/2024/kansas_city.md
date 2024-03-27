@@ -9,14 +9,14 @@ title: PubConf Kansas City 2024
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
-date: 2024-06-28T19:00:00-04:00
+date: 2024-06-28T18:30:00-04:00
 
 # ISO8601 Date for the ending time of the event.
-end_date: 2024-06-28T22:00:00-04:00
+end_date: 2024-06-28T23:00:00-04:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
-local_time: 2024-06-28T19:00
+local_time: 2024-06-28T18:30
 
 # Tickets object. Comment this out until tickets are ready to be sold.
 #tickets:
@@ -36,7 +36,7 @@ images:
   # Vector event logo
   #logo: /assets/events/atlanta_2024/event-logo.svg
   # Background Image used in the top-of-page hero.
-  #background: /assets/events/kansas_city_2023/event-hero-bg.jpg
+  background: /assets/events/kc_2024/event-hero-bg.webp
 
 tagline: "theFuture is undefined"
 
@@ -49,10 +49,10 @@ partner:
 
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
-#venue:
-  #name: Howl at the Moon
-  #address: 1334 Grand Blvd. Kansas City, MO 64106
-  #url: https://www.howlatthemoon.com/kansas-city/
+venue:
+  name: Nighthawk
+  address: 1228 Baltimore Ave, Kansas City, MO 64105
+  url: https://www.nighthawkkc.com
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
