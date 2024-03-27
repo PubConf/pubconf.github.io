@@ -32,9 +32,9 @@ local_time: 2024-06-28T18:30
 # `/assets/images/events/_template`
 images:
   # Image used in meta. Will be shown in Twitter/Facebook when links are shared.
-  #share: /assets/events/atlanta_2024/event-share.jpg
+  share: /assets/events/kc_2024/event-share.jpg
   # Vector event logo
-  #logo: /assets/events/atlanta_2024/event-logo.svg
+  logo: /assets/events/kc_2024/event-clock.svg
   # Background Image used in the top-of-page hero.
   background: /assets/events/kc_2024/event-hero-bg.webp
 
