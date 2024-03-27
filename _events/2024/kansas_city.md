@@ -34,9 +34,9 @@ images:
   # Image used in meta. Will be shown in Twitter/Facebook when links are shared.
   share: /assets/events/kc_2024/event-share.jpg
   # Vector event logo
-  logo: /assets/events/kc_2024/event-clock.svg
+  logo: /assets/events/kc_2024/logo-clock.svg
   # Background Image used in the top-of-page hero.
-  background: /assets/events/kc_2024/event-hero-bg.webp
+  background: /assets/events/kc_2024/event-hero-bg2.jpg
 
 tagline: "theFuture is undefined"
 
