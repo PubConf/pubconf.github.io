@@ -76,6 +76,7 @@ speakers:
     talk: "20 Technology Acronyms that Keep you Safe"
   lemon:
     talk: "I Got Popular (Oops)"
+    place: finalist
   dan_lew:
     talk: "Hostile Design Patterns"
   donnie_berkholz:
@@ -84,6 +85,7 @@ speakers:
     talk: "One Weird Trick to Avoid Losing Money in the Cloud"
   jake_good:
     talk: "You're Wrong About Being Right"
+    place: finalist
   marc_grabanski:
     talk: "Web Development is Easy"
 

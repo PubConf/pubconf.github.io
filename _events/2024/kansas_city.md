@@ -9,14 +9,14 @@ title: PubConf Kansas City 2024
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
-date: 2024-06-28T18:30:00-04:00
+date: 2024-06-28T19:00:00-04:00
 
 # ISO8601 Date for the ending time of the event.
-end_date: 2024-06-28T23:00:00-04:00
+end_date: 2024-06-28T23:30:00-04:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
-local_time: 2024-06-28T18:30
+local_time: 2024-06-28T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
 #tickets:
@@ -38,7 +38,7 @@ images:
   # Background Image used in the top-of-page hero.
   background: /assets/events/kc_2024/event-hero-bg2.jpg
 
-tagline: "theFuture is undefined"
+tagline: "ERROR: theFuture is undefined"
 
 # Most events have a conference partner. This is to highlight them.
 partner:
@@ -62,8 +62,8 @@ venue:
 # The host of the show
 host:
   lemon:
-    #bio: "Connoisseur of fine JavaScript"
-    #image: "/assets/images/speakers/todd_gardner_2.jpg"
+    bio: "Let's see what this button does."
+    image: "/assets/images/speakers/lemon_mask.webp"
 
 # How many finalists can be voted for using the voting page
 # https://pubconf.io/vote/?event=<eventName>&hash=<secret>
@@ -72,9 +72,6 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  
-
-
 
 # Supporters array for the event.
 supporters:
@@ -92,6 +89,10 @@ supporters:
     url: https://trackjs.com/
     image: /assets/images/supporters/tjs.webp
     # TrackJS is a required supporter.
+  # - name: Savas Labs
+  #   level: topshelf
+  #   url: https://savaslabs.com/
+  #   image: /assets/images/supporters/savas-labs.svg
 
 ---
 
