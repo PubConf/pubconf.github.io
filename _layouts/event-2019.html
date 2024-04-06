@@ -72,7 +72,7 @@ Name,Twitter,Talk,Source{% for speaker_hash in event.speakers %}{% assign speake
 {{ speaker_profile.title }},@{{ speaker_profile.twitter }},"{{ speaker_info.talk }}",{{ speaker_slug }}{% endif %}{% endfor %}
 </script>
 
-<div class="hero" style="background: #000 url({{ event.images.background }}) center center no-repeat;background-size:cover;">
+<div class="hero" style="background: #000 url({{ event.images.background }}) center center no-repeat; background-size:cover; ">
     <div class="container">
         <div class="title">
             <h1 style="display: none;">{{ event.title }}</h1>
@@ -145,7 +145,7 @@ Name,Twitter,Talk,Source{% for speaker_hash in event.speakers %}{% assign speake
             <li>
                 <a class="speaker-link" href="{{ speaker_profile.url }}" data-click-category="discovery" data-click-action="speaker_link" data-click-label="{{ speaker_profile.title }}">
                 <figure class="speaker-item speaker-twitter-{{speaker_profile.twitter}}">
-                    <img data-proofer-ignore data-lazy-src="{% if speaker_profile.image %}{{ speaker_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}" alt="{{ speaker_profile.title }}" class="speaker">
+                    <img data-proofer-ignore src="{% if speaker_profile.image %}{{ speaker_profile.image }}{% else %}/assets/images/speakers/anonymous.png{% endif %}" alt="{{ speaker_profile.title }}" class="speaker">
                     {% if speaker_info.place == "champion" %}<img src="/assets/images/champion.png" alt="PubConf Champion" title="PubConf Champion" class="champion">{% endif; %}
                     {% if speaker_info.place == "finalist" %}<img src="/assets/images/finalist.png" alt="PubConf Finalist" title="PubConf Finalist" class="finalist">{% endif; %}
                     <figcaption>
@@ -170,7 +170,7 @@ Name,Twitter,Talk,Source{% for speaker_hash in event.speakers %}{% assign speake
                 <li>
                     <a class="speaker-link" href="{{ host_profile.url }}" data-click-category="discovery" data-click-action="speaker_link" data-click-label="{{ host_profile.name }}">
                     <figure class="speaker-item">
-                        <img data-proofer-ignore data-lazy-src="{{ host_profile.image }}" alt="{{ host_profile.name }}" class="speaker">
+                        <img data-proofer-ignore src="{{ host_profile.image }}" alt="{{ host_profile.name }}" class="speaker">
                         <figcaption>
                             <span class="name">{{ host_profile.title }}</span>
                             <span class="description">{{ host_profile.bio }}</span>

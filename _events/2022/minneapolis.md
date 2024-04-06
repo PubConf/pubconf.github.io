@@ -74,6 +74,7 @@ speakers:
     talk: "Don’t Read The Comments"
   carl_franklin:
     talk: "My Struggles with Vocal Dyslexia"
+    place: champion
   dan_lew:
     talk: "Web's Inferno"
     bio: "Wait, is this thing recording?"
@@ -92,6 +93,7 @@ speakers:
     talk: "Bullshit Champion Round"
   lemon:
     talk: "Bullshit Champion Round"
+    place: "champion"
 
 # Supporters array for the event.
 supporters:
