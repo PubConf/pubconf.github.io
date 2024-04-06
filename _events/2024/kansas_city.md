@@ -6,6 +6,7 @@ layout: "event-2024"
 
 # Full title of the event. Will be used in meta tags. Usually "PubConf City Year"
 title: PubConf Kansas City 2024
+excerpt: Rapid-fire funny talks, musical acts, and comedy stunts from amazing developers. At the pub.
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
@@ -33,6 +34,9 @@ local_time: 2024-06-28T19:00
 images:
   # Image used in meta. Will be shown in Twitter/Facebook when links are shared.
   share: /assets/events/kc_2024/event-share.jpg
+  share_width: 1200
+  share_height: 630
+
   # Vector event logo
   logo: /assets/events/kc_2024/logo-clock.svg
   # Background Image used in the top-of-page hero.
@@ -88,7 +92,6 @@ supporters:
     level: topshelf
     url: https://trackjs.com/
     image: /assets/images/supporters/tjs.webp
-    # TrackJS is a required supporter.
   # - name: Savas Labs
   #   level: topshelf
   #   url: https://savaslabs.com/
