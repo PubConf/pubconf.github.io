@@ -58,7 +58,10 @@ venue:
 # rendered.
 
 # The host of the show
-host: todd_gardner
+host:
+  todd_gardner:
+    bio: "Connoisseur of fine JavaScript"
+    image: "/assets/images/speakers/todd_gardner_2.jpg"
 
 # How many finalists can be voted for using the voting page
 # https://pubconf.io/vote/?event=<eventName>&hash=<secret>
