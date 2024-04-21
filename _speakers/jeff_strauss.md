@@ -1,6 +1,6 @@
 ---
 title: Jeff Strauss
 twitter: JeffreyStrauss
-bio: "No, the other Lazy Bastard"
+bio: "needs to lie down"
 image: /assets/images/speakers/jeffstrauss.jpg
 ---

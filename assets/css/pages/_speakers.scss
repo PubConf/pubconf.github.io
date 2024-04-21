@@ -115,25 +115,11 @@
         }
 
         .events {
-            .event {
-                color:$brand-light-grey;
-                color:$brand-med-grey;
+            .event-link { 
+                color: lighten($brand-orange, 10%);
+                text-decoration: none;
                 font-size: 0.9em;
-                .event-link { 
-                    color: lighten($brand-orange, 10%);
-                    text-decoration: none;
-                    &:hover { 
-                        text-decoration: underline;
-                    }
-                }
-                .place, .host {
-                    &:before { content:"("; }
-                    &:after { content:")"; }
-                }
-                &:after { content: " • "; }
-                &:last-child:after { content: ''; }
             }
         }
     }
-
 }

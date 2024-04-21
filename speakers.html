@@ -27,17 +27,19 @@ sitemap:
                         {% for event in site.events %}
                             {% if event.speakers contains speaker_profile.slug %}
                                 {% assign event_speaker = event.speakers[speaker_profile.slug] %}
-                                <span class="event">
-                                    <a class="event-link" href="{{ event.url }}">{{ event.title }}</a>
-                                    {% if event_speaker.place == "champion" %}<span class="place champion">Champion</span>{% endif %}
-                                    {% if event_speaker.place == "finalist" %}<span class="place champion">Finalist</span>{% endif %}
-                                </span>
+                                <a class="event-link" href="{{ event.url }}">
+                                    <span class="event-title">{{ event.title }}</span>
+                                    {% if event_speaker.place == "champion" %}<span class="event-place champion">(Champion)</span>{% endif %}
+                                    {% if event_speaker.place == "finalist" %}<span class="event-place finalist">(Finalist)</span>{% endif %}
+                                </a>
+                                <span style="color:#ccc;"> • </span>
                             {% endif %}
                             {% if event.host[speaker_profile.slug] or event.host == speaker_profile.slug %}
-                                <span class="event">
-                                    <a class="event-link" href="{{ event.url }}">{{ event.title }}</a>
-                                    <span class="host">Host</span>
-                                </span>
+                                <a class="event-link" href="{{ event.url }}">
+                                    <span class="event-title">{{ event.title }}</span>
+                                    <span class="event-host">(Host)</span>
+                                </a>
+                                <span style="color:#ccc;"> • </span>
                             {% endif %}
                         {% endfor %}
                     </div>
