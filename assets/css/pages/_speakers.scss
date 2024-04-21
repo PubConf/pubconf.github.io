@@ -103,6 +103,9 @@
                 font-size: 1.2em;
                 font-weight: 700;
                 text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
@@ -112,14 +115,25 @@
         }
 
         .events {
-            .event-link {
-                color: lighten($brand-orange, 10%);
+            .event {
+                color:$brand-light-grey;
+                color:$brand-med-grey;
                 font-size: 0.9em;
-                text-decoration: none;
+                .event-link { 
+                    color: lighten($brand-orange, 10%);
+                    text-decoration: none;
+                    &:hover { 
+                        text-decoration: underline;
+                    }
+                }
+                .place, .host {
+                    &:before { content:"("; }
+                    &:after { content:")"; }
+                }
+                &:after { content: " • "; }
+                &:last-child:after { content: ''; }
             }
         }
-
-
     }
 
 }

@@ -85,6 +85,7 @@ speakers:
         image: /assets/images/speakers/edward_thomson-london24.jpg
     eli_holderness:
         talk: Big Poppins
+        place: finalist
     hannes_lowette:
         talk: "PubConf: the truth uncovered"
     jo_franchetti:
@@ -97,6 +98,7 @@ speakers:
         image: /assets/images/speakers/lemon-london24.jpg
     mark_rendle:
         talk: "CSI: Sherlock She Wrote"
+        place: champion
     #michelle_mannering:
     #    bio: "Microsoft fan-girl"
     #    talk: "The Death of Technology: what really happened to Zune?"

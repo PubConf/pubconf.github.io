@@ -48,26 +48,40 @@ body_class: "page speaker"
 <div class="events">
     <h2>Talks</h2>
     <ol class="event-list">
-    {% assign events = site.events | reverse %}
-    {% for event in events %}
-    {% if event.speakers contains speaker_profile.slug or event.host == speaker_profile.slug %}
-    {% assign event_speaker = event.speakers[speaker_profile.slug] %}
-        <li class="event-item">
-            <div class="event-image">
-                <a href="{{ event.url }}" title="{{ event.title }}">
-                    <img src="{{ event.images.logo }}" alt="{{ event.title }}" />
-                </a>
-                {% if event_speaker == nill %}<img src="/assets/images/host.png" alt="PubConf Host" title="PubConf Host" class="host">{% endif; %}
-                {% if event_speaker.place == "champion" %}<img src="/assets/images/champion.png" alt="PubConf Champion" title="PubConf Champion" class="champion">{% endif; %}
-                {% if event_speaker.place == "finalist" %}<img src="/assets/images/finalist.png" alt="PubConf Finalist" title="PubConf Finalist" class="finalist">{% endif; %}
-            </div>
-            <div class="event-details">
-                <h3><a href="{{ event.url }}" title="{{ event.title }}">{{ event.title }}</a></h3>
-                <div>{{ event_speaker.talk }}</div>
-            </div>
-        </li>
-    {% endif %}
-    {% endfor %}
+        {% assign events = site.events | reverse %}
+        {% for event in events %}
+            {% if event.speakers contains speaker_profile.slug %}
+                {% assign event_speaker = event.speakers[speaker_profile.slug] %}
+                <li class="event-item">
+                    <div class="event-image">
+                        <a href="{{ event.url }}" title="{{ event.title }}">
+                            <img src="{{ event.images.logo }}" alt="{{ event.title }}" />
+                        </a>
+                        {% if event_speaker == nill %}<img src="/assets/images/host.png" alt="PubConf Host" title="PubConf Host" class="host">{% endif; %}
+                        {% if event_speaker.place == "champion" %}<img src="/assets/images/champion.png" alt="PubConf Champion" title="PubConf Champion" class="champion">{% endif; %}
+                        {% if event_speaker.place == "finalist" %}<img src="/assets/images/finalist.png" alt="PubConf Finalist" title="PubConf Finalist" class="finalist">{% endif; %}
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="{{ event.url }}" title="{{ event.title }}">{{ event.title }}</a></h3>
+                        <div>{{ event_speaker.talk }}</div>
+                    </div>
+                </li>
+            {% endif %}
+            {% if event.host[speaker_profile.slug] or event.host == speaker_profile.slug %}
+                <li class="event-item">
+                    <div class="event-image">
+                        <a href="{{ event.url }}" title="{{ event.title }}">
+                            <img src="{{ event.images.logo }}" alt="{{ event.title }}" />
+                        </a>
+                        <img src="/assets/images/host.png" alt="PubConf Host" title="PubConf Host" class="host">
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="{{ event.url }}" title="{{ event.title }}">{{ event.title }}</a></h3>
+                        <div>Host</div>
+                    </div>
+                </li>
+            {% endif %}
+        {% endfor %}
     </ol>
 </div>
 
