@@ -67,7 +67,7 @@ venue:
 host:
   lemon:
     bio: "Let's see what this button does."
-    image: "/assets/images/speakers/lemon_mask.webp"
+    image: "/assets/images/speakers/lemon_mask2.webp"
 
 # How many finalists can be voted for using the voting page
 # https://pubconf.io/vote/?event=<eventName>&hash=<secret>
@@ -76,6 +76,9 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
+  sarah_young:
+      #bio: "Tired of the bullshit"
+      #talk: "Whodunit: Solving the Open Source Murderer"
 
 # Supporters array for the event.
 supporters:
