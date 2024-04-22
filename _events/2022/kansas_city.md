@@ -72,28 +72,40 @@ host:
 speakers:
   soulman_iqbal:
     game: greenfield
+    talk: Greenfield
   david_whitney:
     game: greenfield
+    talk: Greenfield
   bekah_hawrot_weigel:
     game: greenfield
+    talk: Greenfield
   glenn_henriksen:
     game: greenfield
+    talk: Greenfield
   lewis_denhamparry:
     game: brownfield
+    talk: Brownfield
   cecili_poole:
     game: brownfield
+    talk: Brownfield
   liz_wait:
     game: brownfield
+    talk: Brownfield
   laura_santamaria:
     game: brownfield
+    talk: Brownfield
   jennifer_wadella:
     game: burning-production
+    talk: Burning Production
   jonathan_mills:
     game: burning-production
+    talk: Burning Production
   ash_bzak:
     game: burning-production
+    talk: Burning Production
   lemon:
     game: burning-production
+    talk: Burning Production
 
 # Supporters array for the event.
 supporters:

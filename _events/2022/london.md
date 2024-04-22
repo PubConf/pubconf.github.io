@@ -58,7 +58,10 @@ venue:
 # rendered.
 
 # The host of the show
-host: todd_gardner
+host:
+  todd_gardner:
+    bio: "Connoisseur of fine JavaScript"
+    image: "/assets/images/speakers/todd_gardner_2.jpg"
 
 # How many finalists can be voted for using the voting page
 # https://pubconf.io/vote/?event=<eventName>&hash=<secret>
@@ -69,36 +72,47 @@ finalist_count: 3
 speakers:
   dan_north:
     game: greenfield
+    talk: Greenfield
     rank: 5
   ian_cooper:
     game: brownfield
+    talk: Brownfield
     rank: 3
   hannes_lowette:
     game: brownfield
+    talk: Brownfield
     rank: 1
   mark_rendle:
     game: fixing-production
+    talk: Fixing Production
     rank: 1
   ash_bzak:
     game: fixing-production
+    talk: Fixing Production
     rank: 3
   angeliki_patsiavou:
     game: fixing-production
+    talk: Fixing Production
     rank: 2
   dylan_beattie:
     game: greenfield
+    talk: Greenfield
     rank: 1
   guy_royse:
     game: greenfield
+    talk: Greenfield
     rank: 2
   jo_franchetti:
     game: greenfield
+    talk: Greenfield
     rank: 3
   chris_odell:
     game: greenfield
+    talk: Greenfield
     rank: 4
   adele_carpenter:
     game: greenfield
+    talk: Greenfield
     rank: 2
 
 # Supporters array for the event.

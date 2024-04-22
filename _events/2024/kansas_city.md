@@ -79,6 +79,9 @@ speakers:
   sarah_young:
       #bio: "Tired of the bullshit"
       #talk: "Whodunit: Solving the Open Source Murderer"
+  ash_bzak:
+    #bio: "Tired of the bullshit"
+    #talk: "Whodunit: Solving the Open Source Murderer"
 
 # Supporters array for the event.
 supporters:
