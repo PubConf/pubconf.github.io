@@ -85,6 +85,10 @@ speakers:
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
+  brandon_minnick:
+    #bio: Brandon's bio
+    #talk: Brandon's talk
+
 
 # Supporters array for the event.
 supporters:
