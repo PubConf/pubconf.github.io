@@ -89,7 +89,7 @@ speakers:
     #bio: Brandon's bio
     #talk: Brandon's talk
   jennifer_wadella:
-    #bio: Wadella's bio
+    bio: Your Boss, the Geriatric Millennial
     #talk: Wadella's talk
 
 # Supporters array for the event.
