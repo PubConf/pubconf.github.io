@@ -14,10 +14,10 @@ title: Sarah Young
 twitter: _sarahyo
 
 # Bio line.
-#bio: "10x Avocado"
+bio: Mother of shibes
 
 # Headshot image URL. Should be 300x300 greyscale.
-#image: /assets/images/speakers/aaron_powell.jpg
+image: /assets/images/speakers/sarah_young.webp
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl

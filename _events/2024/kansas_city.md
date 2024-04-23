@@ -88,7 +88,9 @@ speakers:
   brandon_minnick:
     #bio: Brandon's bio
     #talk: Brandon's talk
-
+  jennifer_wadella:
+    #bio: Wadella's bio
+    #talk: Wadella's talk
 
 # Supporters array for the event.
 supporters:
