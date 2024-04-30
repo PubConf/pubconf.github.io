@@ -91,6 +91,12 @@ speakers:
   jennifer_wadella:
     bio: Your Boss, the Geriatric Millennial
     #talk: Wadella's talk
+  eli_holderness:
+    #bio: Brandon's bio
+    #talk: Brandon's talk
+  dan_neciu:
+    #bio: Neciu's bio
+    #talk: Neciu's talk
 
 # Supporters array for the event.
 supporters:
