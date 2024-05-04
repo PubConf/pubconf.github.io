@@ -67,7 +67,7 @@ venue:
 host:
   lemon:
     bio: "Let's see what this button does."
-    image: "/assets/images/speakers/lemon_mask2.webp"
+    image: "/assets/images/speakers/lemon_mate.webp"
 
 # How many finalists can be voted for using the voting page
 # https://pubconf.io/vote/?event=<eventName>&hash=<secret>
@@ -97,6 +97,9 @@ speakers:
   dan_neciu:
     #bio: Neciu's bio
     #talk: Neciu's talk
+  glenn_henriksen:
+    #bio: Glenn's bio
+    #talk: Glenn's talk
 
 # Supporters array for the event.
 supporters:

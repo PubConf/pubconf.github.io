@@ -10,8 +10,13 @@ This is a Jekyll static site hosted on GitHub Pages. The distributed files are h
 1. Install [Ruby](http://rubyinstaller.org/). Include on `path`.
 2. Install [Ruby Dev Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)
 3. `gem install jekyll`
-4. `gem install bundle`.
+4. `gem install bundle`
 5. `bundle install`
+
+## Run It Locally
+```bash
+bundle exec jekyll serve
+```
 
 ### Structure
 
