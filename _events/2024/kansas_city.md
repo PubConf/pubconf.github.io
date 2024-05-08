@@ -100,6 +100,9 @@ speakers:
   glenn_henriksen:
     #bio: Glenn's bio
     #talk: Glenn's talk
+  gabby_spurling:
+    #bio: Gabby's bio
+    #talk: Gabby's talk
 
 # Supporters array for the event.
 supporters:
