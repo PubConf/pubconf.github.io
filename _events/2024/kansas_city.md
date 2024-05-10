@@ -119,10 +119,10 @@ supporters:
     level: topshelf
     url: https://trackjs.com/
     image: /assets/images/supporters/tjs.webp
-  # - name: Savas Labs
-  #   level: topshelf
-  #   url: https://savaslabs.com/
-  #   image: /assets/images/supporters/savas-labs.svg
+  - name: Savas Labs
+    level: topshelf
+    url: https://savaslabs.com/
+    image: /assets/images/supporters/savas-labs.svg
 
 ---
 
