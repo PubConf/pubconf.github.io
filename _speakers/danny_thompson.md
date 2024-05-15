@@ -14,10 +14,10 @@ title: Danny Thompson
 twitter: DThompsonDev
 
 # Bio line.
-#bio: "10x Avocado"
+bio: "Expert Social Media Mouth Runner"
 
 # Headshot image URL. Should be 300x300 greyscale.
-#image: /assets/images/speakers/aaron_powell.jpg
+image: /assets/images/speakers/danny_thompson.jpg
 
 # Shirt size for speaker swag.
 #shirt_size: "s" # xs,s,m,l,xl,xxl,xxxl

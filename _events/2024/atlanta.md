@@ -78,6 +78,7 @@ speakers:
   cecelia_martinez:
     talk: "Developer Despair: A Profit Model"
   danny_thompson:
+    talk: "The Deadline Doctor App: Bridging Management Promises and Developer Realities."
   henri_helvetica:
     talk: "Drake for PHP"
   jay_miller:
