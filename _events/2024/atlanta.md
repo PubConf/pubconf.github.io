@@ -2,7 +2,7 @@
 # PubConf Events are defined by this markdown frontmatter. This template
 # contains all the supported fields and descriptions.
 #
-layout: "event-2023"
+layout: "event-2024-atlanta"
 
 # Full title of the event. Will be used in meta tags. Usually "PubConf City Year"
 title: PubConf Atlanta 2024
@@ -12,7 +12,7 @@ title: PubConf Atlanta 2024
 date: 2024-06-13T19:00:00-04:00
 
 # ISO8601 Date for the ending time of the event.
-end_date: 2024-06-13T22:00:00-04:00
+end_date: 2024-06-13T21:00:00-04:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
@@ -38,14 +38,14 @@ images:
   # Background Image used in the top-of-page hero.
   background: /assets/events/atlanta_2024/event-hero-bg.jpg
 
-tagline: "PubConf Goes Wild Wild West"
+tagline: "Shark Tank fueled by whisky and angst."
 
 # Most events have a conference partner. This is to highlight them.
 partner:
   name: RenderATL
   url: https://www.renderatl.com/
   # Specific dimensions required. This is also in the image template.
-  logo: /assets/events/atlanta_2024/partner-logo.png
+  logo: /assets/events/atlanta_2024/partner-logo.jpg
 
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
@@ -62,7 +62,7 @@ partner:
 # The host of the show
 host:
   todd_gardner:
-    bio: "Thot leader and money fountain"
+    bio: "Taking your startup from 0 to -1."
     image: "/assets/images/speakers/todd_gardner_wtf.jpg"
 
 # How many finalists can be voted for using the voting page
