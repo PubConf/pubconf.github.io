@@ -49,10 +49,10 @@ partner:
 
 # The venue where the event will be held. Comment it out until a contract is in
 # place. All fields required.
-#venue:
-  #name: Howl at the Moon
-  #address: 1334 Grand Blvd. Kansas City, MO 64106
-  #url: https://www.howlatthemoon.com/kansas-city/
+venue:
+  name: Hotel Indigo Bar
+  address: 683 Peachtree St NE, Atlanta, GA 30308
+  url: https://www.ihg.com/hotelindigo/hotels/us/en/atlanta/atlfx/hoteldetail
 
 # Speakers. Speaker details are kept separate from events so that they can be
 # re-used between multiple events. Reference a speaker by slug (lowercase,
