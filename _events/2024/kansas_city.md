@@ -22,9 +22,9 @@ local_time: 2024-06-28T19:00
 # Tickets object. Comment this out until tickets are ready to be sold.
 #tickets:
   # External URL to purchase tickets. Eventbrite, etc.
-  #url: https://www.eventbrite.com/e/pubconf-kansas-city-2023-tickets-634291331447
+  #url: https://ti.to/kansas-city-developers-conference/pubconf-kc-2024
   # Number price in local currency
-  #price: 40
+  #price: 30
   # Currency code. Used in meta.
   #currency: USD
 
@@ -33,12 +33,12 @@ local_time: 2024-06-28T19:00
 # `/assets/images/events/_template`
 images:
   # Image used in meta. Will be shown in Twitter/Facebook when links are shared.
-  share: /assets/events/kc_2024/event-share.jpg
+  share: /assets/events/kc_2024/event-share-3.jpg
   share_width: 1200
   share_height: 630
 
   # Vector event logo
-  logo: /assets/events/kc_2024/logo-clock.svg
+  logo: /assets/events/kc_2024/event-logo-2.svg
   # Background Image used in the top-of-page hero.
   background: /assets/events/kc_2024/event-hero-bg2.jpg
 
