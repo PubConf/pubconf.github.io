@@ -72,7 +72,6 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  adam_rackis:
   annyce_davis:
     talk: "Artificially Intelligent (AI)"
   cecelia_martinez:
@@ -85,6 +84,9 @@ speakers:
     talk: "The Advocates - Your Startup's next Superheroes"
   ken_wheeler:
     talk: "Tinder for AI guys"
+  spencer_schneidenbach:
+    bio: "I wrote jQuery once in 2017"
+    talk: "Multiple AI Personality Disorders"
 
 # Supporters array for the event.
 supporters:
