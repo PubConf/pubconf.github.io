@@ -20,13 +20,13 @@ end_date: 2024-06-28T23:30:00-04:00
 local_time: 2024-06-28T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-#tickets:
-  # External URL to purchase tickets. Eventbrite, etc.
-  #url: https://ti.to/kansas-city-developers-conference/pubconf-kc-2024
+tickets:
+  # External URL to purchase tickets.
+  url: https://ti.to/kansas-city-developers-conference/pubconf-kc-2024
   # Number price in local currency
-  #price: 30
+  price: 30
   # Currency code. Used in meta.
-  #currency: USD
+  currency: USD
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
@@ -81,13 +81,10 @@ speakers:
       #talk: Sarah's talk
   ash_bzak:
     #bio: Ash's bio
-    #talk: Ash's talk
-  darcy_lussier:
-    #bio: D'arcy's bio
-    #talk: D'arcy's talk
+    talk: According to TNG, it's less than 20 years to World War III
   brandon_minnick:
     #bio: Brandon's bio
-    #talk: Brandon's talk
+    talk: Humanity Achieves Peak Laziness
   jennifer_wadella:
     bio: Your Boss, the Geriatric Millennial
     #talk: Wadella's talk
@@ -99,10 +96,16 @@ speakers:
     #talk: Neciu's talk
   glenn_henriksen:
     #bio: Glenn's bio
-    #talk: Glenn's talk
+    talk: The Future Is Reduced For Quick Sale
   gabby_spurling:
     #bio: Gabby's bio
     #talk: Gabby's talk
+  eldert_grootenboer:
+    bio: Herder of Cats
+    talk: Elderts's talk
+  darcy_lussier:
+    #bio: D'arcy's bio
+    #talk: D'arcy's talk
 
 # Supporters array for the event.
 supporters:
