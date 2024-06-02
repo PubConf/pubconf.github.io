@@ -89,8 +89,8 @@ speakers:
     bio: Your Boss, the Geriatric Millennial
     #talk: Wadella's talk
   eli_holderness:
-    #bio: Brandon's bio
-    #talk: Brandon's talk
+    #bio: Eli's bio
+    #talk: Eli's talk
   dan_neciu:
     #bio: Neciu's bio
     #talk: Neciu's talk
@@ -102,26 +102,21 @@ speakers:
     #talk: Gabby's talk
   eldert_grootenboer:
     bio: Herder of Cats
-    talk: Elderts's talk
+    # talk: Elderts's talk
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
 
 # Supporters array for the event.
 supporters:
-  #- name: Request Metrics
-    # Levels are "topshelf" and "rail" indicating if their are first-tier or
-    # second-tier supporters.
-    #level: topshelf
-    #url: https://requestmetrics.com/
-    #image: /assets/images/supporters/rm3.webp
-# TrackJS is a required supporter.
+  # TrackJS is a required supporter.
   - name: TrackJS
     # Levels are "topshelf" and "rail" indicating if their are first-tier or
     # second-tier supporters.
     level: topshelf
     url: https://trackjs.com/
     image: /assets/images/supporters/tjs.webp
+  # Savas Labs is a top shelf sponsor for PubConf KC
   - name: Savas Labs
     level: topshelf
     url: https://savaslabs.com/
