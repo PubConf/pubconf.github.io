@@ -87,6 +87,7 @@ speakers:
   spencer_schneidenbach:
     bio: "I wrote jQuery once in 2017"
     talk: "Multiple AI Personality Disorders"
+    image: /assets/images/speakers/spencer_schneidenbach_2.jpg
 
 # Supporters array for the event.
 supporters:
