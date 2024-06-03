@@ -19,9 +19,9 @@ end_date: 2024-06-13T21:00:00-04:00
 local_time: 2024-06-13T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-#tickets:
+tickets:
   # External URL to purchase tickets. Eventbrite, etc.
-  url: https://www.eventbrite.com/e/pubconf-atlanta-tickets-918965770357?aff=oddtdtcreator
+  url: https://www.eventbrite.com/e/pubconf-atlanta-tickets-918965770357
   # Number price in local currency
   price: 0
   # Currency code. Used in meta.
