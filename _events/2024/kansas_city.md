@@ -66,8 +66,8 @@ venue:
 # The host of the show
 host:
   lemon:
-    bio: "Let's see what this button does."
-    image: "/assets/images/speakers/lemon_mate.webp"
+    bio: Just sitting around here waiting for the future to start.
+    image: "/assets/images/speakers/lemon_headinhands.webp"
 
 # How many finalists can be voted for using the voting page
 # https://pubconf.io/vote/?event=<eventName>&hash=<secret>
