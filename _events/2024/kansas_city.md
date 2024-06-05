@@ -77,8 +77,8 @@ host:
 # Within each speaker are the event-specific details.
 speakers:
   sarah_young:
-      #bio: Sarah's bio
-      #talk: Sarah's talk
+    #bio: Sarah's bio
+    #talk: Sarah's talk
   ash_bzak:
     #bio: Ash's bio
     talk: According to TNG, it's less than 20 years to World War III
@@ -102,7 +102,7 @@ speakers:
     #talk: Gabby's talk
   eldert_grootenboer:
     bio: Herder of Cats
-    # talk: Elderts's talk
+    talk: Program Managers Against Humanity
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
