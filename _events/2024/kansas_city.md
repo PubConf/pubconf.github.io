@@ -87,7 +87,7 @@ speakers:
     talk: Humanity Achieves Peak Laziness
   jennifer_wadella:
     bio: Your Boss, the Geriatric Millennial
-    #talk: Wadella's talk
+    talk: The Day Millennials Manage the Technical Workforce
   eli_holderness:
     #bio: Eli's bio
     #talk: Eli's talk
