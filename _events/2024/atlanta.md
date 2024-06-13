@@ -72,6 +72,8 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
+  aaron_crowder:
+    talk: "AI C-Suite"
   annyce_davis:
     talk: "Artificially Intelligent (AI)"
   cecelia_martinez:
