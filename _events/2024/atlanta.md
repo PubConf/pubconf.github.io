@@ -9,14 +9,14 @@ title: PubConf Atlanta 2024
 
 # ISO8601 Date for the starting time of the event. Make sure the offset is in the
 # event location timezone.
-date: 2024-06-13T19:00:00-04:00
+date: 2024-06-13T20:00:00-04:00
 
 # ISO8601 Date for the ending time of the event.
 end_date: 2024-06-13T21:00:00-04:00
 
 # ISO8601 Date (without offset) for the local time of the event. This is used
 # for display because dates are hard.
-local_time: 2024-06-13T19:00
+local_time: 2024-06-13T20:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
 tickets:
