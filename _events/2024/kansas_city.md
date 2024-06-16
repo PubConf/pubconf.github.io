@@ -78,7 +78,7 @@ host:
 speakers:
   sarah_young:
     #bio: Sarah's bio
-    #talk: Sarah's talk
+    talk: The Roast of TechBroism
   #ash_bzak:
     #bio: Ash's bio
     #talk: According to TNG, it's less than 20 years to World War III
@@ -93,7 +93,7 @@ speakers:
     #talk: Eli's talk
   dan_neciu:
     #bio: Neciu's bio
-    #talk: Neciu's talk
+    talk: Software Engineering Teams in the year 2035 
   glenn_henriksen:
     #bio: Glenn's bio
     talk: The Future Is Reduced For Quick Sale
