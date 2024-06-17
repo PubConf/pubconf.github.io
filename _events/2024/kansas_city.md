@@ -76,36 +76,37 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  sarah_young:
-    #bio: Sarah's bio
-    talk: The Roast of TechBroism
-  #ash_bzak:
-    #bio: Ash's bio
-    #talk: According to TNG, it's less than 20 years to World War III
-  brandon_minnick:
-    #bio: Brandon's bio
-    talk: Humanity Achieves Peak Laziness
-  jennifer_wadella:
-    bio: Your Boss, the Geriatric Millennial
-    talk: The Day Millennials Manage the Technical Workforce
-  eli_holderness:
-    #bio: Eli's bio
-    #talk: Eli's talk
-  dan_neciu:
-    #bio: Neciu's bio
-    talk: Software Engineering Teams in the year 2035 
   glenn_henriksen:
     #bio: Glenn's bio
     talk: The Future Is Reduced For Quick Sale
-  gabby_spurling:
-    #bio: Gabby's bio
-    #talk: Gabby's talk
+  jennifer_wadella:
+    bio: Your Boss, the Geriatric Millennial
+    talk: The Day Millennials Manage the Technical Workforce
+  brandon_minnick:
+    #bio: Brandon's bio
+    talk: Humanity Achieves Peak Laziness
+  sarah_young:
+    #bio: Sarah's bio
+    talk: The Roast of TechBroism
   eldert_grootenboer:
     bio: Herder of Cats
     talk: Program Managers Against Humanity
+  dan_neciu:
+    #bio: Neciu's bio
+    talk: Software Engineering Teams in the year 2035
+  surprise_guest:
+    bio: a former PubConf Champion!
+    talk: ""
+  eli_holderness:
+    #bio: Eli's bio
+    #talk: Eli's talk
+  gabby_spurling:
+    #bio: Gabby's bio
+    #talk: Gabby's talk
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
+  
 
 # Supporters array for the event.
 supporters:
