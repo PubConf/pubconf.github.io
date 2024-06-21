@@ -97,12 +97,13 @@ speakers:
   surprise_guest:
     bio: a former PubConf Champion!
     talk: ""
+  gabby_spurling:
+    #bio: Gabby's bio
+    talk: Good News! You Still Have A Job!!!
   eli_holderness:
     #bio: Eli's bio
     #talk: Eli's talk
-  gabby_spurling:
-    #bio: Gabby's bio
-    #talk: Gabby's talk
+  
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
