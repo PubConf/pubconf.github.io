@@ -90,7 +90,7 @@ speakers:
     talk: The Roast of TechBroism
   eldert_grootenboer:
     bio: Herder of Cats
-    talk: Program Managers Against Humanity
+    talk: Product Managers Against Humanity
   dan_neciu:
     #bio: Neciu's bio
     talk: Software Engineering Teams in the year 2035
@@ -103,7 +103,6 @@ speakers:
   eli_holderness:
     #bio: Eli's bio
     #talk: Eli's talk
-  
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
