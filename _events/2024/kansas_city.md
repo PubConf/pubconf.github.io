@@ -102,11 +102,10 @@ speakers:
     talk: Good News! You Still Have A Job!!!
   eli_holderness:
     #bio: Eli's bio
-    #talk: Eli's talk
+    talk: The Future? You're Looking At It Baby!
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
-  
 
 # Supporters array for the event.
 supporters:
