@@ -93,7 +93,7 @@ speakers:
     talk: Product Managers Against Humanity
   dan_neciu:
     #bio: Neciu's bio
-    talk: Software Engineering Teams in the year 2035
+    talk: Software Engineering Teams in the year 2034
   surprise_guest:
     bio: a former PubConf Champion!
     talk: ""
@@ -108,7 +108,7 @@ speakers:
     #talk: D'arcy's talk
   jennie_ocken:
     bio: Coming In Clutch!
-    talk: CoDS-I Annual Report
+    talk: CoDS-I 2034 Annual Report
 
 # Supporters array for the event.
 supporters:
