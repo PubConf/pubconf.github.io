@@ -76,9 +76,9 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  glenn_henriksen:
+  #glenn_henriksen:
     #bio: Glenn's bio
-    talk: The Future Is Reduced For Quick Sale
+    #talk: The Future Is Reduced For Quick Sale
   jennifer_wadella:
     bio: Your Boss, the Geriatric Millennial
     talk: The Day Millennials Manage the Technical Workforce
@@ -106,6 +106,9 @@ speakers:
   darcy_lussier:
     #bio: D'arcy's bio
     #talk: D'arcy's talk
+  jennie_ocken:
+    bio: Coming In Clutch!
+    talk: CoDS-I Annual Report
 
 # Supporters array for the event.
 supporters:
