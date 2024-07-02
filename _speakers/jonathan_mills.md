@@ -1,6 +1,6 @@
 ---
 
-title: Jonathan Mills
+title: Jon Mills
 twitter: jonathanfmills
 bio: "JavaScript Guy"
 image: /assets/images/speakers/jonmills-2.jpg

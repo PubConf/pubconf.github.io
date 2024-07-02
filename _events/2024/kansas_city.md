@@ -76,36 +76,30 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-  #glenn_henriksen:
-    #bio: Glenn's bio
-    #talk: The Future Is Reduced For Quick Sale
   jennifer_wadella:
     bio: Your Boss, the Geriatric Millennial
     talk: The Day Millennials Manage the Technical Workforce
+    place: finalist
   brandon_minnick:
-    #bio: Brandon's bio
     talk: Humanity Achieves Peak Laziness
   sarah_young:
-    #bio: Sarah's bio
     talk: The Roast of TechBroism
   eldert_grootenboer:
     bio: Herder of Cats
     talk: Product Managers Against Humanity
   dan_neciu:
-    #bio: Neciu's bio
     talk: Software Engineering Teams in the year 2034
-  surprise_guest:
-    bio: a former PubConf Champion!
-    talk: ""
+  jonathan_mills:
+    talk: The Sponsored Talk (Performer)
+  ash_bzak:
+    talk: The Sponsored Talk (Producer)
   gabby_spurling:
-    #bio: Gabby's bio
     talk: Good News! You Still Have A Job!!!
+    place: champion
   eli_holderness:
-    #bio: Eli's bio
     talk: The Future? You're Looking At It Baby!
   darcy_lussier:
-    #bio: D'arcy's bio
-    #talk: D'arcy's talk
+    talk: The Next Decade of Software Development
   jennie_ocken:
     bio: Coming In Clutch!
     talk: CoDS-I 2034 Annual Report
