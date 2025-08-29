@@ -170,7 +170,9 @@
         .supporters {
             justify-content: space-around;
             display: flex;
+            align-items: center;
             .supporter-item {
+                flex: 0 0 30%;
                 padding: 20px;
                 img {
                     width: 100%;
@@ -180,10 +182,10 @@
         }
 
         @media (max-width: 900px) {
-            height: $supporter-height*1.5;
+            height: $supporter-height*2;
             .container {
-                bottom: $supporter-height*1.5;
-                min-height: $supporter-height*1.5;
+                bottom: $supporter-height*2;
+                min-height: $supporter-height*2;
             }
 
             .supporters {
