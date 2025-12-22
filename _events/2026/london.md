@@ -70,9 +70,22 @@ host:
 # Speaker object hash. Use the speaker slugs as the keys, alphabetically listed.
 # Within each speaker are the event-specific details.
 speakers:
-    # brandon_minnick:
-    #     bio: "Tired of the bullshit"
-    #     talk: "Whodunit: Solving the Open Source Murderer"
+    arthur_doler:
+        talk: "The Bug"
+    helvira_goma:
+        talk: "Still in thought process, sorry"
+    chris_simon:
+         talk: "Tech Exec or Psychopath? (AI Edition)"
+    ash_bzak:
+        talk: They Think My UI's Messy
+    jo_minney:
+        talk: "I Would Push Anything To Prod"
+    william_brander:
+        talk: "It's DNS"
+    damian_brady:
+        talk: "Broken Builds"
+        image: /assets/images/speakers/2026/damian_brady.jpg
+        bio: "Large Language Model/Singer/Actor"
     # dennis_doomen:
     #     talk: The curious case of the undiscovered production system
     # dylan_beattie:
