@@ -86,6 +86,10 @@ speakers:
         talk: "Broken Builds"
         image: /assets/images/speakers/2026/damian_brady.jpg
         bio: "Large Language Model/Singer/Actor"
+    glenn_henriksen:
+        talk: "Money for Nothing and Equity for Free"
+        image: /assets/images/speakers/2026/glenn_henriksen.jpg
+        bio: "Agent of Chaos"
     # dennis_doomen:
     #     talk: The curious case of the undiscovered production system
     # dylan_beattie:
