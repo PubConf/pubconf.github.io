@@ -19,13 +19,13 @@ end_date: 2026-01-30T23:59:00Z
 local_time: 2026-01-30T19:00
 
 # Tickets object. Comment this out until tickets are ready to be sold.
-# tickets:
-#   # External URL to purchase tickets. Eventbrite, etc.
-#   url: https://www.eventbrite.co.uk/e/pubconf-ndc-london-2024-tickets-753697388177
-#   # Number price in local currency
-#   price: 20
-#   # Currency code. Used in meta.
-#   currency: GBP
+tickets:
+  # External URL to purchase tickets. Eventbrite, etc.
+  url: https://www.eventbrite.co.uk/e/pubconf-london-2026-tickets-1979854890273
+  # Number price in local currency
+  price: 22.50
+  # Currency code. Used in meta.
+  currency: GBP
 
 # Basic images used for every event. I typically use the same ones for a location
 # every year. There are templates for creating these in
@@ -137,7 +137,7 @@ supporters:
     url: https://requestmetrics.com/
     image: /assets/images/supporters/rm3.webp
 ---
-## 18:00 Doors Open
+## 18:30 Doors Open
 Audience: Have a drink. Have a snack. Enjoy yourself.<br>
 Speakers: Time to start panicking.
 
@@ -145,19 +145,21 @@ Speakers: Time to start panicking.
 20 slides. 15 seconds each. You know how this works.
 
 ## 20:30 The Linebreakers
-The Linebreakers take the stage with all your favourite tech hits.
+The Linebreakers take to the stage with all your favourite tech hits.
+<img style="max-width: 80%;"
+    src="/assets/events/london_2026/linebreakers-promo-for-pubconf-london-2026.png" title="The Linebreakers" alt="The Linebreakers">
 
 ## 21:15 The PubConf Factor
 You've seen The Linebreakers - now it's your turn.
 
 ## 22:00 The Linebreakers
-The Linebreakers return the stage with all your favourite tech hits.
+The Linebreakers return to the stage with all your favourite tech hits.
 
 ## 23:00 PubConf Karaoke
 You were working as a waitress in cocktail bar...
 
 ## 01:00 Finish
-Thank you, goodnight.
+You don't have to go home... but you can't stay here.
 
 {% comment %}
 Any markdown included here will be appended to the end of the "DETAILS" section.
