@@ -77,7 +77,7 @@ speakers:
     chris_simon:
          talk: "Tech Exec or Psychopath? (AI Edition)"
     ash_bzak:
-        talk: They Think My UI's Messy
+        talk: She Thinks My UI’s Fancy
     jo_minney:
         talk: "I Would Push Anything To Prod"
     william_brander:
