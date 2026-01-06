@@ -73,7 +73,7 @@ speakers:
     arthur_doler:
         talk: "The Bug"
     helvira_goma:
-        talk: "Still in thought process, sorry"
+        talk: "“still in thought process, sorry”"
     chris_simon:
          talk: "Tech Exec or Psychopath? (AI Edition)"
     ash_bzak:
