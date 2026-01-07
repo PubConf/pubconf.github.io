@@ -141,8 +141,10 @@ supporters:
     url: https://requestmetrics.com/
     image: /assets/images/supporters/rm3.webp
 ---
-## 18:30 Doors Open
+## 19:00 Doors Open
+
 Audience: Have a drink. Have a snack. Enjoy yourself.<br>
+
 Speakers: Time to start panicking.
 
 ## 19:30 The Classic
