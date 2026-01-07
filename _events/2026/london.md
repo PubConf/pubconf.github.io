@@ -151,7 +151,7 @@ Speakers: Time to start panicking.
 ## 20:30 The Linebreakers
 The Linebreakers take to the stage with all your favourite tech hits.
 <img style="max-width: 80%;"
-    src="/assets/events/london_2026/linebreakers-promo-for-pubconf-london-2026.png" title="The Linebreakers" alt="The Linebreakers">
+    src="/assets/events/london_2026/linebreakers-promo-for-pubconf-london-2026.png?202601071156" title="The Linebreakers" alt="The Linebreakers">
 
 ## 21:15 The PubConf Factor
 You've seen The Linebreakers - now it's your turn.
