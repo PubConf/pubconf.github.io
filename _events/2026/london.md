@@ -90,6 +90,12 @@ speakers:
         talk: "Money for Nothing and Equity for Free"
         image: /assets/images/speakers/2026/glenn_henriksen.jpg
         bio: "Agent of Chaos"
+    chris_ayers:
+        talk: "Your Dev Year Wrapped"
+        image: /assets/images/speakers/2026/chris_ayers.jpg
+        bio: "Mediocre middle-aged white man"
+    brandon_minnick:
+        talk: TBC
     # dennis_doomen:
     #     talk: The curious case of the undiscovered production system
     # dylan_beattie:
