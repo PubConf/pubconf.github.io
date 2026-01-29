@@ -96,6 +96,8 @@ speakers:
         bio: "Mediocre middle-aged white man"
     brandon_minnick:
         talk: TBC
+    jordan_miller:
+        talk: "Lambduhh Lore: Origins Stories"
     # dennis_doomen:
     #     talk: The curious case of the undiscovered production system
     # dylan_beattie:
