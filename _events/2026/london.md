@@ -95,9 +95,11 @@ speakers:
         image: /assets/images/speakers/2026/chris_ayers.jpg
         bio: "Mediocre middle-aged white man"
     brandon_minnick:
-        talk: TBC
+        talk: "Drummers vs Developers"
     jordan_miller:
         talk: "Lambduhh Lore: Origins Stories"
+    david_whitney:
+        talk: "Kubernetes Operator"
     # dennis_doomen:
     #     talk: The curious case of the undiscovered production system
     # dylan_beattie:
